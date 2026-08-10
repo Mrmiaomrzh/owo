@@ -1,0 +1,2330 @@
+{
+	"可爱猫": {
+		"type": "image",
+		"container": [{
+				"text": "blobcat-心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatheart.png'>"
+			},
+			{
+				"text": "blobcat-心碎",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatheartbroken.png'>"
+			},
+			{
+				"text": "blobcat-心自豪",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatheartpride.png'>"
+			},
+			{
+				"text": "blobcat-爱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatlove.png'>"
+			},
+			{
+				"text": "blobcat-亲吻心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatkissheart.png'>"
+			},
+			{
+				"text": "blobcat-依偎",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatsnuggle.png'>"
+			},
+			{
+				"text": "blobcat-舒适",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatcomfy.png'>"
+			},
+			{
+				"text": "blobcat-舒适流泪",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatcomftears.png'>"
+			},
+			{
+				"text": "blobcat-捂脸",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatfacepalm.png'>"
+			},
+			{
+				"text": "blobcat-0_0",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcat0_0.png'>"
+			},
+			{
+				"text": "blobcat-生气",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatangry.png'>"
+			},
+			{
+				"text": "blobcat-脸红",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatblush.png'>"
+			},
+			{
+				"text": "blobcat-咖啡",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatcoffee.png'>"
+			},
+			{
+				"text": "blobcat-哭泣",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatcry.png'>"
+			},
+			{
+				"text": "blobcat-困扰",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatdisturbed.png'>"
+			},
+			{
+				"text": "blobcat-恐惧",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatfearful.png'>"
+			},
+			{
+				"text": "blobcat-手枪",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatfingerguns.png'>"
+			},
+			{
+				"text": "blobcat-翻",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatflip.png'>"
+			},
+			{
+				"text": "blobcat-花",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatflower.png'>"
+			},
+			{
+				"text": "blobcat-同性恋",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatgay.png'>"
+			},
+			{
+				"text": "blobcat-中性",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatneutral.png'>"
+			},
+			{
+				"text": "blobcat-张嘴",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatopenmouth.png'>"
+			},
+			{
+				"text": "blobcat-伸手",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatsadreach.png'>"
+			},
+			{
+				"text": "blobcat-害怕",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatscared.png'>"
+			},
+			{
+				"text": "blobcat-咬头",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatnomblobcat.png'>"
+			},
+			{
+				"text": "blobcat-红色礼物",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatpresentred.png'>"
+			},
+			{
+				"text": "blobcat-阅读",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatread.png'>"
+			},
+			{
+				"text": "blobcat-喝汗",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatsipsweat.png'>"
+			},
+			{
+				"text": "blobcat-发火",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatsnapped.png'>"
+			},
+			{
+				"text": "blobcat-思考",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatthink.png'>"
+			},
+			{
+				"text": "blobcat-胜利",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcattriumph.png'>"
+			},
+			{
+				"text": "blobcat-嗯",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatumm.png'>"
+			},
+			{
+				"text": "blobcat-验证",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatverified.png'>"
+			},
+			{
+				"text": "blobcat-盒子",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatbox.png'>"
+			},
+			{
+				"text": "blobcat-笼子",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatcaged.png'>"
+			},
+			{
+				"text": "blobcat-垃圾",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatgooglytrash.png'>"
+			},
+			{
+				"text": "blobcat-耳机",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatheadphones.png'>"
+			},
+			{
+				"text": "blobcat-击掌",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcathighfive.png'>"
+			},
+			{
+				"text": "blobcat-融化",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatmelt.png'>"
+			},
+			{
+				"text": "blobcat-融化拇指",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatmeltthumb.png'>"
+			},
+			{
+				"text": "blobcat-不像这样",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatnotlikethis.png'>"
+			},
+			{
+				"text": "blobcat-一拳超人",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatsaitama.png'>"
+			},
+			{
+				"text": "blobcat-病态",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatyandere.png'>"
+			},
+			{
+				"text": "blobcat-偷看2",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatpeek2.png'>"
+			},
+			{
+				"text": "blobcat-躲猫猫",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatpeekaboo.png'>"
+			},
+			{
+				"text": "blobcat-照片",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatphoto.png'>"
+			},
+			{
+				"text": "blobcat-注意反转",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatattentionreverse.png'>"
+			},
+			{
+				"text": "blobcat-反向伸手",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatreachrev.png'>"
+			},
+			{
+				"text": "blobcat-挥手",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatwave.png'>"
+			},
+			{
+				"text": "blobcat-备用",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatalt.png'>"
+			},
+			{
+				"text": "blobcat-警察",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatpolice.png'>"
+			},
+			{
+				"text": "blobcat-震惊",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatshocked.png'>"
+			},
+			{
+				"text": "blobcat-彩虹",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/blobcat/blobcatrainbow.png'>"
+			}
+		]
+	},
+	"小电视": {
+		"type": "image",
+		"container": [{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-doge.png\">",
+				"text": "bilibili-doge"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-亲亲.png\">",
+				"text": "bilibili-亲亲"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-偷笑.png\">",
+				"text": "bilibili-偷笑"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-再见.png\">",
+				"text": "bilibili-再见"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-冷漠.png\">",
+				"text": "bilibili-冷漠"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-发怒.png\">",
+				"text": "bilibili-发怒"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-发财.png\">",
+				"text": "bilibili-发财"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-可爱.png\">",
+				"text": "bilibili-可爱"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-吐血.png\">",
+				"text": "bilibili-吐血"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-呆.png\">",
+				"text": "bilibili-呆"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-呕吐.png\">",
+				"text": "bilibili-呕吐"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-困.png\">",
+				"text": "bilibili-困"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-坏笑.png\">",
+				"text": "bilibili-坏笑"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-大佬.png\">",
+				"text": "bilibili-大佬"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-大哭.png\">",
+				"text": "bilibili-大哭"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-委屈.png\">",
+				"text": "bilibili-委屈"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-害羞.png\">",
+				"text": "bilibili-害羞"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-尴尬.png\">",
+				"text": "bilibili-尴尬"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-微笑.png\">",
+				"text": "bilibili-微笑"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-思考.png\">",
+				"text": "bilibili-思考"
+			},
+			{
+				"icon": "<img src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/bilibili/bilibili-惊吓.png\">",
+				"text": "bilibili-惊吓"
+			}
+		]
+	},
+	"猫猫虫": {
+		"type": "image",
+		"container": [{
+				"text": "catbug-不准色色",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-不准色色.webp'>"
+			},
+			{
+				"text": "catbug-不要",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-不要.webp'>"
+			},
+			{
+				"text": "catbug-不要呀",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-不要呀.webp'>"
+			},
+			{
+				"text": "catbug-亲亲",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-亲亲.webp'>"
+			},
+			{
+				"text": "catbug-亲脸",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-亲脸.webp'>"
+			},
+			{
+				"text": "catbug-偷偷看",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-偷偷看.webp'>"
+			},
+			{
+				"text": "catbug-偷偷给心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-偷偷给心.webp'>"
+			},
+			{
+				"text": "catbug-再见",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-再见.webp'>"
+			},
+			{
+				"text": "catbug-吃掉你",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-吃掉你.webp'>"
+			},
+			{
+				"text": "catbug-吹风",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-吹风.webp'>"
+			},
+			{
+				"text": "catbug-呕吼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-呕吼.webp'>"
+			},
+			{
+				"text": "catbug-和我色色",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-和我色色.webp'>"
+			},
+			{
+				"text": "catbug-咬你",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-咬你.webp'>"
+			},
+			{
+				"text": "catbug-开心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-开心.webp'>"
+			},
+			{
+				"text": "catbug-思考中",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-思考中.webp'>"
+			},
+			{
+				"text": "catbug-扭一扭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-扭一扭.webp'>"
+			},
+			{
+				"text": "catbug-扭屁股",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-扭屁股.webp'>"
+			},
+			{
+				"text": "catbug-摇摇晃晃",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-摇摇晃晃.webp'>"
+			},
+			{
+				"text": "catbug-无奈",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-无奈.webp'>"
+			},
+			{
+				"text": "catbug-棒",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-棒.webp'>"
+			},
+			{
+				"text": "catbug-点赞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-点赞.webp'>"
+			},
+			{
+				"text": "catbug-爱你",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-爱你.webp'>"
+			},
+			{
+				"text": "catbug-爱你2",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-爱你2.webp'>"
+			},
+			{
+				"text": "catbug-牛",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-牛.webp'>"
+			},
+			{
+				"text": "catbug-生气",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-生气.webp'>"
+			},
+			{
+				"text": "catbug-睡觉",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-睡觉.webp'>"
+			},
+			{
+				"text": "catbug-耍帅",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-耍帅.webp'>"
+			},
+			{
+				"text": "catbug-脸红",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-脸红.webp'>"
+			},
+			{
+				"text": "catbug-膜拜",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-膜拜.webp'>"
+			},
+			{
+				"text": "catbug-舔屏",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-舔屏.webp'>"
+			},
+			{
+				"text": "catbug-贴贴",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-贴贴.webp'>"
+			},
+			{
+				"text": "catbug-问号",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/catbug/catbug-问号.webp'>"
+			}
+		]
+	},
+	"大圆脸": {
+		"type": "image",
+		"container": [{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-3d眼镜.png\"\u003E",
+				"text": "heo-3d眼镜"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-EDG.png\"\u003E",
+				"text": "heo-EDG"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-LPL.png\"\u003E",
+				"text": "heo-LPL"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-beluga.png\"\u003E",
+				"text": "heo-beluga"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-不好意思.png\"\u003E",
+				"text": "heo-不好意思"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-不服吗.png\"\u003E",
+				"text": "heo-不服吗"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-亲亲.png\"\u003E",
+				"text": "heo-亲亲"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-伞兵.png\"\u003E",
+				"text": "heo-伞兵"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-倚墙笑.png\"\u003E",
+				"text": "heo-倚墙笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-值得肯定.png\"\u003E",
+				"text": "heo-值得肯定"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-偷偷看.png\"\u003E",
+				"text": "heo-偷偷看"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-傻笑.png\"\u003E",
+				"text": "heo-傻笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-再见.png\"\u003E",
+				"text": "heo-再见"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-出家人.png\"\u003E",
+				"text": "heo-出家人"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-击剑.png\"\u003E",
+				"text": "heo-击剑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-加班.png\"\u003E",
+				"text": "heo-加班"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-勉强笑.png\"\u003E",
+				"text": "heo-勉强笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-危险.png\"\u003E",
+				"text": "heo-危险"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-发红包.png\"\u003E",
+				"text": "heo-发红包"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-吃手.png\"\u003E",
+				"text": "heo-吃手"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-吃瓜.png\"\u003E",
+				"text": "heo-吃瓜"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-吐血.png\"\u003E",
+				"text": "heo-吐血"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-吵架.png\"\u003E",
+				"text": "heo-吵架"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-呦吼.png\"\u003E",
+				"text": "heo-呦吼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-呲牙笑.png\"\u003E",
+				"text": "heo-呲牙笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-哈士奇.png\"\u003E",
+				"text": "heo-哈士奇"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-哈士奇失去意识.png\"\u003E",
+				"text": "heo-哈士奇失去意识"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-哈士奇失望.png\"\u003E",
+				"text": "heo-哈士奇失望"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-哭泣.png\"\u003E",
+				"text": "heo-哭泣"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-唱歌.png\"\u003E",
+				"text": "heo-唱歌"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-喜欢.png\"\u003E",
+				"text": "heo-喜欢"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-嘿哈.png\"\u003E",
+				"text": "heo-嘿哈"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-大笑.png\"\u003E",
+				"text": "heo-大笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-失去信号.png\"\u003E",
+				"text": "heo-失去信号"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-失望.png\"\u003E",
+				"text": "heo-失望"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-头秃.png\"\u003E",
+				"text": "heo-头秃"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-奋斗.png\"\u003E",
+				"text": "heo-奋斗"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-好奇.png\"\u003E",
+				"text": "heo-好奇"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-好的.png\"\u003E",
+				"text": "heo-好的"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-害羞.png\"\u003E",
+				"text": "heo-害羞"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-小丑.png\"\u003E",
+				"text": "heo-小丑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-小偷.png\"\u003E",
+				"text": "heo-小偷"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-尬笑.png\"\u003E",
+				"text": "heo-尬笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-尴尬.png\"\u003E",
+				"text": "heo-尴尬"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-应援.png\"\u003E",
+				"text": "heo-应援"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-开心.png\"\u003E",
+				"text": "heo-开心"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-引起不适.png\"\u003E",
+				"text": "heo-引起不适"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-微笑.png\"\u003E",
+				"text": "heo-微笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-思考.png\"\u003E",
+				"text": "heo-思考"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-恶心.png\"\u003E",
+				"text": "heo-恶心"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-恶魔.png\"\u003E",
+				"text": "heo-恶魔"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-恶魔恐惧.png\"\u003E",
+				"text": "heo-恶魔恐惧"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-惊吓.png\"\u003E",
+				"text": "heo-惊吓"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-惊吓白眼.png\"\u003E",
+				"text": "heo-惊吓白眼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-惊讶.png\"\u003E",
+				"text": "heo-惊讶"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-惬意.png\"\u003E",
+				"text": "heo-惬意"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-感动.png\"\u003E",
+				"text": "heo-感动"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-愤怒.png\"\u003E",
+				"text": "heo-愤怒"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-我看好你.png\"\u003E",
+				"text": "heo-我看好你"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-手机相机.png\"\u003E",
+				"text": "heo-手机相机"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-打咩.png\"\u003E",
+				"text": "heo-打咩"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-打牌.png\"\u003E",
+				"text": "heo-打牌"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-托腮.png\"\u003E",
+				"text": "heo-托腮"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-扶额.png\"\u003E",
+				"text": "heo-扶额"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-抠鼻.png\"\u003E",
+				"text": "heo-抠鼻"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-抬眼镜.png\"\u003E",
+				"text": "heo-抬眼镜"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-拜托.png\"\u003E",
+				"text": "heo-拜托"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-捂嘴笑.png\"\u003E",
+				"text": "heo-捂嘴笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-捂脸.png\"\u003E",
+				"text": "heo-捂脸"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-擦汗.png\"\u003E",
+				"text": "heo-擦汗"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-放鞭炮.png\"\u003E",
+				"text": "heo-放鞭炮"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-敬礼.png\"\u003E",
+				"text": "heo-敬礼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-整理发型.png\"\u003E",
+				"text": "heo-整理发型"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-斗鸡眼.png\"\u003E",
+				"text": "heo-斗鸡眼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-智慧的眼神.png\"\u003E",
+				"text": "heo-智慧的眼神"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-月饼.png\"\u003E",
+				"text": "heo-月饼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-有没有搞错.png\"\u003E",
+				"text": "heo-有没有搞错"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-正确.png\"\u003E",
+				"text": "heo-正确"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-没招.png\"\u003E",
+				"text": "heo-没招"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-波吉.png\"\u003E",
+				"text": "heo-波吉"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-泪奔.png\"\u003E",
+				"text": "heo-泪奔"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-流汗微笑.png\"\u003E",
+				"text": "heo-流汗微笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-流鼻涕.png\"\u003E",
+				"text": "heo-流鼻涕"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-深思.png\"\u003E",
+				"text": "heo-深思"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽.png\"\u003E",
+				"text": "heo-滑稽"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽吃瓜.png\"\u003E",
+				"text": "heo-滑稽吃瓜"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽喝水.png\"\u003E",
+				"text": "heo-滑稽喝水"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽奶茶.png\"\u003E",
+				"text": "heo-滑稽奶茶"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽柠檬.png\"\u003E",
+				"text": "heo-滑稽柠檬"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽狂汗.png\"\u003E",
+				"text": "heo-滑稽狂汗"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-滑稽被子.png\"\u003E",
+				"text": "heo-滑稽被子"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-烦恼.png\"\u003E",
+				"text": "heo-烦恼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熊熊.png\"\u003E",
+				"text": "heo-熊熊"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熊猫.png\"\u003E",
+				"text": "heo-熊猫"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熊猫唱歌.png\"\u003E",
+				"text": "heo-熊猫唱歌"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熊猫喜欢.png\"\u003E",
+				"text": "heo-熊猫喜欢"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熊猫失望.png\"\u003E",
+				"text": "heo-熊猫失望"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熊猫意外.png\"\u003E",
+				"text": "heo-熊猫意外"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-熬夜.png\"\u003E",
+				"text": "heo-熬夜"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-爆炸.png\"\u003E",
+				"text": "heo-爆炸"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-牛年进宝.png\"\u003E",
+				"text": "heo-牛年进宝"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狂热.png\"\u003E",
+				"text": "heo-狂热"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头.png\"\u003E",
+				"text": "heo-狗头"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头围脖.png\"\u003E",
+				"text": "heo-狗头围脖"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头失望.png\"\u003E",
+				"text": "heo-狗头失望"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头意外.png\"\u003E",
+				"text": "heo-狗头意外"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头胖次.png\"\u003E",
+				"text": "heo-狗头胖次"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头花.png\"\u003E",
+				"text": "heo-狗头花"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-狗头草.png\"\u003E",
+				"text": "heo-狗头草"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-猪头.png\"\u003E",
+				"text": "heo-猪头"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-猪头意外.png\"\u003E",
+				"text": "heo-猪头意外"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-生病.png\"\u003E",
+				"text": "heo-生病"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-电话.png\"\u003E",
+				"text": "heo-电话"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-疑问.png\"\u003E",
+				"text": "heo-疑问"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-疼痛.png\"\u003E",
+				"text": "heo-疼痛"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-痛哭.png\"\u003E",
+				"text": "heo-痛哭"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-看穿一切.png\"\u003E",
+				"text": "heo-看穿一切"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-眩晕.png\"\u003E",
+				"text": "heo-眩晕"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-睡觉.png\"\u003E",
+				"text": "heo-睡觉"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-禁言.png\"\u003E",
+				"text": "heo-禁言"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-笑哭.png\"\u003E",
+				"text": "heo-笑哭"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-纠结.png\"\u003E",
+				"text": "heo-纠结"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-绿帽.png\"\u003E",
+				"text": "heo-绿帽"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-缺牙笑.png\"\u003E",
+				"text": "heo-缺牙笑"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-翻白眼.png\"\u003E",
+				"text": "heo-翻白眼"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-老虎意外.png\"\u003E",
+				"text": "heo-老虎意外"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-耍酷.png\"\u003E",
+				"text": "heo-耍酷"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-胡子.png\"\u003E",
+				"text": "heo-胡子"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-菜狗.png\"\u003E",
+				"text": "heo-菜狗"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-菜狗花.png\"\u003E",
+				"text": "heo-菜狗花"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-蒙面滑稽.png\"\u003E",
+				"text": "heo-蒙面滑稽"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-虎年进宝.png\"\u003E",
+				"text": "heo-虎年进宝"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-被打.png\"\u003E",
+				"text": "heo-被打"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-裂开.png\"\u003E",
+				"text": "heo-裂开"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-警告.png\"\u003E",
+				"text": "heo-警告"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-读书.png\"\u003E",
+				"text": "heo-读书"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-财神红包.png\"\u003E",
+				"text": "heo-财神红包"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-超爱.png\"\u003E",
+				"text": "heo-超爱"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-这是啥.png\"\u003E",
+				"text": "heo-这是啥"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-送福.png\"\u003E",
+				"text": "heo-送福"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-送花.png\"\u003E",
+				"text": "heo-送花"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-错误.png\"\u003E",
+				"text": "heo-错误"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-阴险.png\"\u003E",
+				"text": "heo-阴险"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-难以置信.png\"\u003E",
+				"text": "heo-难以置信"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-面具.png\"\u003E",
+				"text": "heo-面具"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-饥渴.png\"\u003E",
+				"text": "heo-饥渴"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-鬼脸.png\"\u003E",
+				"text": "heo-鬼脸"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-黑线.png\"\u003E",
+				"text": "heo-黑线"
+			},
+			{
+				"icon": "\u003Cimg src=\"https://jsd.anxy.top/gh/mrmiaomrzh/owo/heo/heo-鼓掌.png\"\u003E",
+				"text": "heo-鼓掌"
+			}
+		]
+	},
+	"方块脸": {
+		"type": "image",
+		"container": [{
+				"text": "Heybox—微笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube.png'>"
+			},
+			{
+				"text": "Heybox—并不简单",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_bingbujiandan.png'>"
+			},
+			{
+				"text": "Heybox-闭嘴",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_bizui.png'>"
+			},
+			{
+				"text": "Heybox-沧桑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_cangsang.png'>"
+			},
+			{
+				"text": "Heybox-打脸",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_dalian.png'>"
+			},
+			{
+				"text": "Heybox-狗头",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_doge.png'>"
+			},
+			{
+				"text": "Heybox-感动",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_gandong.png'>"
+			},
+			{
+				"text": "Heybox-乖",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_guai.png'>"
+			},
+			{
+				"text": "Heybox-咕咕",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_gugu.png'>"
+			},
+			{
+				"text": "Heybox-汉",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_han.png'>"
+			},
+			{
+				"text": "Heybox-expression_cube_黑人问号",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_heirenwenhao.png'>"
+			},
+			{
+				"text": "Heybox-滑稽",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_huaji.png'>"
+			},
+			{
+				"text": "Heybox-加油",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_jiayou.png'>"
+			},
+			{
+				"text": "Heybox-惊讶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_jingya.png'>"
+			},
+			{
+				"text": "Heybox-开心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_kaixin.png'>"
+			},
+			{
+				"text": "Heybox-哭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_ku.png'>"
+			},
+			{
+				"text": "Heybox-困",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_kun.png'>"
+			},
+			{
+				"text": "Heybox-哭泣",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_kuqi.png'>"
+			},
+			{
+				"text": "Heybox-怒",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_nu.png'>"
+			},
+			{
+				"text": "Heybox-喷水",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_penshui.png'>"
+			},
+			{
+				"text": "Heybox-凄凉",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_qiliang.png'>"
+			},
+			{
+				"text": "Heybox-生气",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_shengqi.png'>"
+			},
+			{
+				"text": "Heybox-睡觉",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_shuijiao.png'>"
+			},
+			{
+				"text": "Heybox-叹气",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_tanqi.png'>"
+			},
+			{
+				"text": "Heybox-摊手",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_tanshou.png'>"
+			},
+			{
+				"text": "Heybox-吐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_tu.png'>"
+			},
+			{
+				"text": "Heybox-哇",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_wa.png'>"
+			},
+			{
+				"text": "Heybox-委屈",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_weiqu.png'>"
+			},
+			{
+				"text": "Heybox-微笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_weixiao.png'>"
+			},
+			{
+				"text": "Heybox-捂脸哭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_wulianku.png'>"
+			},
+			{
+				"text": "Heybox-吓",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_xia.png'>"
+			},
+			{
+				"text": "Heybox-笑哭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_xiaocry.png'>"
+			},
+			{
+				"text": "Heybox-喜欢",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_xihuan.png'>"
+			},
+			{
+				"text": "Heybox-学习",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_xuexi.png'>"
+			},
+			{
+				"text": "Heybox-晕",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_yun.png'>"
+			},
+			{
+				"text": "Heybox-赞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/heybox/Heybox-cube_zan.png'>"
+			}
+		]
+	},
+	"明日方舟": {
+		"type": "image",
+		"container": [{
+				"text": "nice",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/nice.png'>"
+			},
+			{
+				"text": "no",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/no.png'>"
+			},
+			{
+				"text": "ok",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/ok.png'>"
+			},
+			{
+				"text": "wink",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/wink.png'>"
+			},
+			{
+				"text": "一下就好",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/一下就好.png'>"
+			},
+			{
+				"text": "不准吃",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/不准吃.png'>"
+			},
+			{
+				"text": "不可以哦",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/不可以哦.png'>"
+			},
+			{
+				"text": "不好意思",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/不好意思.png'>"
+			},
+			{
+				"text": "不容拒绝",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/不容拒绝.png'>"
+			},
+			{
+				"text": "不想工作",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/不想工作.png'>"
+			},
+			{
+				"text": "举杯",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/举杯.png'>"
+			},
+			{
+				"text": "冷漠",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/冷漠.png'>"
+			},
+			{
+				"text": "出击",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/出击.png'>"
+			},
+			{
+				"text": "切土豆",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/切土豆.png'>"
+			},
+			{
+				"text": "到此一游",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/到此一游.png'>"
+			},
+			{
+				"text": "劝你想想",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/劝你想想.png'>"
+			},
+			{
+				"text": "加油打工人",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/加油打工人.png'>"
+			},
+			{
+				"text": "发呆",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/发呆.png'>"
+			},
+			{
+				"text": "可爱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/可爱.png'>"
+			},
+			{
+				"text": "叹气",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/叹气.png'>"
+			},
+			{
+				"text": "吃瓜",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/吃瓜.png'>"
+			},
+			{
+				"text": "呵呵",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/呵呵.png'>"
+			},
+			{
+				"text": "和善",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/和善.png'>"
+			},
+			{
+				"text": "哈欠",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/哈欠.png'>"
+			},
+			{
+				"text": "哭了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/哭了.png'>"
+			},
+			{
+				"text": "哭哭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/哭哭.png'>"
+			},
+			{
+				"text": "喝茶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/喝茶.png'>"
+			},
+			{
+				"text": "喧嚣的风",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/喧嚣的风.png'>"
+			},
+			{
+				"text": "喷喷",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/喷喷.png'>"
+			},
+			{
+				"text": "嘿嘿",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/嘿嘿.png'>"
+			},
+			{
+				"text": "噩梦",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/噩梦.png'>"
+			},
+			{
+				"text": "失礼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/失礼.png'>"
+			},
+			{
+				"text": "好耶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/好耶.png'>"
+			},
+			{
+				"text": "嫌弃",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/嫌弃.png'>"
+			},
+			{
+				"text": "对的对的",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/对的对的.png'>"
+			},
+			{
+				"text": "就是你了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/就是你了.png'>"
+			},
+			{
+				"text": "尴尬",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/尴尬.png'>"
+			},
+			{
+				"text": "开心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/开心.png'>"
+			},
+			{
+				"text": "得意",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/得意.png'>"
+			},
+			{
+				"text": "怎么回事",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/怎么回事.png'>"
+			},
+			{
+				"text": "怒",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/怒.png'>"
+			},
+			{
+				"text": "我吃点",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/我吃点.png'>"
+			},
+			{
+				"text": "我干两杯",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/我干两杯.png'>"
+			},
+			{
+				"text": "我来治疗你",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/我来治疗你.png'>"
+			},
+			{
+				"text": "摇滚起来",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/摇滚起来.png'>"
+			},
+			{
+				"text": "料理",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/料理.png'>"
+			},
+			{
+				"text": "无奈",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/无奈.png'>"
+			},
+			{
+				"text": "昏厥",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/昏厥.png'>"
+			},
+			{
+				"text": "暗中观察",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/暗中观察.png'>"
+			},
+			{
+				"text": "期待",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/期待.png'>"
+			},
+			{
+				"text": "欢迎",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/欢迎.png'>"
+			},
+			{
+				"text": "正在记录",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/正在记录.png'>"
+			},
+			{
+				"text": "比划比划",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/比划比划.png'>"
+			},
+			{
+				"text": "游刃有余",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/游刃有余.png'>"
+			},
+			{
+				"text": "溜了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/溜了.png'>"
+			},
+			{
+				"text": "灵魂出窍",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/灵魂出窍.png'>"
+			},
+			{
+				"text": "点赞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/点赞.png'>"
+			},
+			{
+				"text": "热情",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/热情.png'>"
+			},
+			{
+				"text": "爱你哟",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/爱你哟.png'>"
+			},
+			{
+				"text": "生气了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/生气了.png'>"
+			},
+			{
+				"text": "疑惑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/疑惑.png'>"
+			},
+			{
+				"text": "疑问",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/疑问.png'>"
+			},
+			{
+				"text": "盯",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/盯.png'>"
+			},
+			{
+				"text": "看戏",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/看戏.png'>"
+			},
+			{
+				"text": "看手机",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/看手机.png'>"
+			},
+			{
+				"text": "真的吗",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/真的吗.png'>"
+			},
+			{
+				"text": "给你鼓掌",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/给你鼓掌.png'>"
+			},
+			{
+				"text": "翻找",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/翻找.png'>"
+			},
+			{
+				"text": "胜利",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/胜利.png'>"
+			},
+			{
+				"text": "警告",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/警告.png'>"
+			},
+			{
+				"text": "财迷心窍",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/财迷心窍.png'>"
+			},
+			{
+				"text": "赞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/赞.png'>"
+			},
+			{
+				"text": "跟我走",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/跟我走.png'>"
+			},
+			{
+				"text": "这像画吗",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/这像画吗.png'>"
+			},
+			{
+				"text": "这啥",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/这啥.png'>"
+			},
+			{
+				"text": "醒醒",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/醒醒.png'>"
+			},
+			{
+				"text": "钓鱼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/钓鱼.png'>"
+			},
+			{
+				"text": "阴险",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/阴险.png'>"
+			},
+			{
+				"text": "震惊",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/震惊.png'>"
+			},
+			{
+				"text": "飙车",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/飙车.png'>"
+			},
+			{
+				"text": "饿了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Arknights/饿了.png'>"
+			}
+		]
+	},
+	"孤独摇滚": {
+		"type": "image",
+		"container": [{
+				"text": "COOL",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/COOL.png'>"
+			},
+			{
+				"text": "举起手来",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/举起手来.png'>"
+			},
+			{
+				"text": "偷看",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/偷看.png'>"
+			},
+			{
+				"text": "加油",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/加油.png'>"
+			},
+			{
+				"text": "可爱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/可爱.png'>"
+			},
+			{
+				"text": "吃草",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/吃草.png'>"
+			},
+			{
+				"text": "哇",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/哇.png'>"
+			},
+			{
+				"text": "喜欢",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/喜欢.png'>"
+			},
+			{
+				"text": "嘘",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/嘘.png'>"
+			},
+			{
+				"text": "大吃特吃",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/大吃特吃.png'>"
+			},
+			{
+				"text": "好孩子",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/好孩子.png'>"
+			},
+			{
+				"text": "威胁",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/威胁.png'>"
+			},
+			{
+				"text": "完了呀",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/完了呀.png'>"
+			},
+			{
+				"text": "害怕",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/害怕.png'>"
+			},
+			{
+				"text": "害羞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/害羞.png'>"
+			},
+			{
+				"text": "微笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/微笑.png'>"
+			},
+			{
+				"text": "惊呆",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/惊呆.png'>"
+			},
+			{
+				"text": "憋笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/憋笑.png'>"
+			},
+			{
+				"text": "打",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/打.png'>"
+			},
+			{
+				"text": "投钱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/投钱.png'>"
+			},
+			{
+				"text": "拍手",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/拍手.png'>"
+			},
+			{
+				"text": "摸头",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/摸头.png'>"
+			},
+			{
+				"text": "气鼓鼓",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/气鼓鼓.png'>"
+			},
+			{
+				"text": "社恐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/社恐.png'>"
+			},
+			{
+				"text": "贴贴",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/GuduYaoGun/贴贴.png'>"
+			}
+		]
+	},
+	"卡拉彼丘": {
+		"type": "image",
+		"container": [{
+				"text": "1周年快乐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/1周年快乐.png'>"
+			},
+			{
+				"text": "boom",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/boom.png'>"
+			},
+			{
+				"text": "emmmm",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/emmmm.png'>"
+			},
+			{
+				"text": "relax",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/relax.png'>"
+			},
+			{
+				"text": "shut up",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/shut up.png'>"
+			},
+			{
+				"text": "一马当先",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/一马当先.png'>"
+			},
+			{
+				"text": "上膛",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/上膛.png'>"
+			},
+			{
+				"text": "不爱听",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/不爱听.png'>"
+			},
+			{
+				"text": "亮瞎了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/亮瞎了.png'>"
+			},
+			{
+				"text": "什么鬼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/什么鬼.png'>"
+			},
+			{
+				"text": "令人信福",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/令人信福.png'>"
+			},
+			{
+				"text": "优雅",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/优雅.png'>"
+			},
+			{
+				"text": "冲刺",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/冲刺.png'>"
+			},
+			{
+				"text": "冲呀",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/冲呀.png'>"
+			},
+			{
+				"text": "冲浪",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/冲浪.png'>"
+			},
+			{
+				"text": "冷漠",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/冷漠.png'>"
+			},
+			{
+				"text": "冷笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/冷笑.png'>"
+			},
+			{
+				"text": "加油",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/加油.png'>"
+			},
+			{
+				"text": "势在必得",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/势在必得.png'>"
+			},
+			{
+				"text": "升天",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/升天.png'>"
+			},
+			{
+				"text": "发现你了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/发现你了.png'>"
+			},
+			{
+				"text": "可恶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/可恶.png'>"
+			},
+			{
+				"text": "吃冰",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/吃冰.png'>"
+			},
+			{
+				"text": "吃惊",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/吃惊.png'>"
+			},
+			{
+				"text": "吃西瓜",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/吃西瓜.png'>"
+			},
+			{
+				"text": "吧唧吧唧",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/吧唧吧唧.png'>"
+			},
+			{
+				"text": "吵死了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/吵死了.png'>"
+			},
+			{
+				"text": "吹",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/吹.png'>"
+			},
+			{
+				"text": "啧",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/啧.png'>"
+			},
+			{
+				"text": "喝水",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/喝水.png'>"
+			},
+			{
+				"text": "喝茶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/喝茶.png'>"
+			},
+			{
+				"text": "嘲笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/嘲笑.png'>"
+			},
+			{
+				"text": "噗",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/噗.png'>"
+			},
+			{
+				"text": "噗呲",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/噗呲.png'>"
+			},
+			{
+				"text": "坏笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/坏笑.png'>"
+			},
+			{
+				"text": "大吉大利",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/大吉大利.png'>"
+			},
+			{
+				"text": "太好了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/太好了.png'>"
+			},
+			{
+				"text": "奇怪",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/奇怪.png'>"
+			},
+			{
+				"text": "好宅喔",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/好宅喔.png'>"
+			},
+			{
+				"text": "好耶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/好耶.png'>"
+			},
+			{
+				"text": "如我所料",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/如我所料.png'>"
+			},
+			{
+				"text": "守望之眼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/守望之眼.png'>"
+			},
+			{
+				"text": "害怕",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/害怕.png'>"
+			},
+			{
+				"text": "已老实",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/已老实.png'>"
+			},
+			{
+				"text": "弱小无助",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/弱小无助.png'>"
+			},
+			{
+				"text": "心虚",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/心虚.png'>"
+			},
+			{
+				"text": "思考",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/思考.png'>"
+			},
+			{
+				"text": "急了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/急了.png'>"
+			},
+			{
+				"text": "恭喜发财",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/恭喜发财.png'>"
+			},
+			{
+				"text": "悠闲",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/悠闲.png'>"
+			},
+			{
+				"text": "慢走不送",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/慢走不送.png'>"
+			},
+			{
+				"text": "我的天呐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/我的天呐.png'>"
+			},
+			{
+				"text": "打西瓜",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/打西瓜.png'>"
+			},
+			{
+				"text": "拍照",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/拍照.png'>"
+			},
+			{
+				"text": "拜年啦",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/拜年啦.png'>"
+			},
+			{
+				"text": "挥剑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/挥剑.png'>"
+			},
+			{
+				"text": "探头",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/探头.png'>"
+			},
+			{
+				"text": "斯密马赛",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/斯密马赛.png'>"
+			},
+			{
+				"text": "新年快乐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/新年快乐.png'>"
+			},
+			{
+				"text": "星门",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/星门.png'>"
+			},
+			{
+				"text": "晒太阳",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/晒太阳.png'>"
+			},
+			{
+				"text": "晕",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/晕.png'>"
+			},
+			{
+				"text": "期待",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/期待.png'>"
+			},
+			{
+				"text": "棒！",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/棒！.png'>"
+			},
+			{
+				"text": "比心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/比心.png'>"
+			},
+			{
+				"text": "水枪",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/水枪.png'>"
+			},
+			{
+				"text": "求求了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/求求了.png'>"
+			},
+			{
+				"text": "溜了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/溜了.png'>"
+			},
+			{
+				"text": "潜水",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/潜水.png'>"
+			},
+			{
+				"text": "热",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/热.png'>"
+			},
+			{
+				"text": "狙谁呢",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/狙谁呢.png'>"
+			},
+			{
+				"text": "玛到成功",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/玛到成功.png'>"
+			},
+			{
+				"text": "玩沙",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/玩沙.png'>"
+			},
+			{
+				"text": "疲惫",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/疲惫.png'>"
+			},
+			{
+				"text": "神经",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/神经.png'>"
+			},
+			{
+				"text": "纯手搓",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/纯手搓.png'>"
+			},
+			{
+				"text": "给予肯定",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/给予肯定.png'>"
+			},
+			{
+				"text": "耍大牌",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/耍大牌.png'>"
+			},
+			{
+				"text": "要闹了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/要闹了.png'>"
+			},
+			{
+				"text": "这样啊",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/这样啊.png'>"
+			},
+			{
+				"text": "送你小鲨鱼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/送你小鲨鱼.png'>"
+			},
+			{
+				"text": "酸了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/酸了.png'>"
+			},
+			{
+				"text": "错了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/错了.png'>"
+			},
+			{
+				"text": "问号",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/问号.png'>"
+			},
+			{
+				"text": "马上上岸",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上上岸.png'>"
+			},
+			{
+				"text": "马上信福",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上信福.png'>"
+			},
+			{
+				"text": "马上出发",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上出发.png'>"
+			},
+			{
+				"text": "马上变美",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上变美.png'>"
+			},
+			{
+				"text": "马上大吉",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上大吉.png'>"
+			},
+			{
+				"text": "马上就火",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上就火.png'>"
+			},
+			{
+				"text": "马上摸鱼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上摸鱼.png'>"
+			},
+			{
+				"text": "马上撒币",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上撒币.png'>"
+			},
+			{
+				"text": "马上旋转",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上旋转.png'>"
+			},
+			{
+				"text": "马上明白",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上明白.png'>"
+			},
+			{
+				"text": "马上暴富",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上暴富.png'>"
+			},
+			{
+				"text": "马上来福",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上来福.png'>"
+			},
+			{
+				"text": "马上起飞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上起飞.png'>"
+			},
+			{
+				"text": "马上躺下",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上躺下.png'>"
+			},
+			{
+				"text": "马上躺赢",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马上躺赢.png'>"
+			},
+			{
+				"text": "马力全开",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/马力全开.png'>"
+			},
+			{
+				"text": "高傲",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/KaLaBiQiu/高傲.png'>"
+			}
+		]
+	},
+	"千恋万花": {
+		"type": "image",
+		"container": [{
+				"text": "ok",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/ok.png'>"
+			},
+			{
+				"text": "zzz",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/zzz.png'>"
+			},
+			{
+				"text": "不愧是我",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/不愧是我.png'>"
+			},
+			{
+				"text": "丛雨Ciallo",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/丛雨Ciallo.png'>"
+			},
+			{
+				"text": "交给我吧",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/交给我吧.png'>"
+			},
+			{
+				"text": "可爱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/可爱.png'>"
+			},
+			{
+				"text": "呃呃",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/呃呃.png'>"
+			},
+			{
+				"text": "呆",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/呆.png'>"
+			},
+			{
+				"text": "哇~",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/哇~.png'>"
+			},
+			{
+				"text": "哭哭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/哭哭.png'>"
+			},
+			{
+				"text": "哼哼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/哼哼.png'>"
+			},
+			{
+				"text": "啊哈哈",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/啊哈哈.png'>"
+			},
+			{
+				"text": "好耶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/好耶.png'>"
+			},
+			{
+				"text": "害羞",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/害羞.png'>"
+			},
+			{
+				"text": "心碎",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/心碎.png'>"
+			},
+			{
+				"text": "流汗",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/流汗.png'>"
+			},
+			{
+				"text": "生气",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/生气.png'>"
+			},
+			{
+				"text": "笨蛋笨蛋",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/笨蛋笨蛋.png'>"
+			},
+			{
+				"text": "脸红",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/脸红.png'>"
+			},
+			{
+				"text": "芳乃Ciallo",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/芳乃Ciallo.png'>"
+			},
+			{
+				"text": "茉子Ciallo",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/茉子Ciallo.png'>"
+			},
+			{
+				"text": "蕾娜Ciallo",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/蕾娜Ciallo.png'>"
+			},
+			{
+				"text": "诶？！",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/诶？！.png'>"
+			},
+			{
+				"text": "谢谢",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/谢谢.png'>"
+			},
+			{
+				"text": "？？",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/QianLianWanHua/？？.png'>"
+			}
+		]
+	},
+	"塔菲": {
+		"type": "image",
+		"container": [{
+				"text": "NO喵!",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/NO喵!.png'>"
+			},
+			{
+				"text": "不理你了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/不理你了.png'>"
+			},
+			{
+				"text": "中秋快乐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/中秋快乐.png'>"
+			},
+			{
+				"text": "亲嘴",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/亲嘴.png'>"
+			},
+			{
+				"text": "令人兴奋",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/令人兴奋.png'>"
+			},
+			{
+				"text": "切割",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/切割.png'>"
+			},
+			{
+				"text": "别急",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/别急.png'>"
+			},
+			{
+				"text": "双手抱胸",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/双手抱胸.png'>"
+			},
+			{
+				"text": "呼呼喵",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/呼呼喵.png'>"
+			},
+			{
+				"text": "哈哈哈",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/哈哈哈.png'>"
+			},
+			{
+				"text": "喵",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/喵.png'>"
+			},
+			{
+				"text": "喵喵拳",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/喵喵拳.png'>"
+			},
+			{
+				"text": "嘤嘤嘤",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/嘤嘤嘤.png'>"
+			},
+			{
+				"text": "嘲笑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/嘲笑.png'>"
+			},
+			{
+				"text": "嘻嘻喵",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/嘻嘻喵.png'>"
+			},
+			{
+				"text": "回旋",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/回旋.png'>"
+			},
+			{
+				"text": "塔不灭",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/塔不灭.png'>"
+			},
+			{
+				"text": "大菲柱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/大菲柱.png'>"
+			},
+			{
+				"text": "太好吃了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/太好吃了.png'>"
+			},
+			{
+				"text": "好热",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/好热.png'>"
+			},
+			{
+				"text": "好的喵",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/好的喵.png'>"
+			},
+			{
+				"text": "委屈",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/委屈.png'>"
+			},
+			{
+				"text": "安心",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/安心.png'>"
+			},
+			{
+				"text": "对呀对呀",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/对呀对呀.png'>"
+			},
+			{
+				"text": "尴尬",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/尴尬.png'>"
+			},
+			{
+				"text": "开派对咯",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/开派对咯.png'>"
+			},
+			{
+				"text": "我帅吗",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/我帅吗.png'>"
+			},
+			{
+				"text": "拥抱",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/拥抱.png'>"
+			},
+			{
+				"text": "拿下",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/拿下.png'>"
+			},
+			{
+				"text": "摸头",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/摸头.png'>"
+			},
+			{
+				"text": "收收味",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/收收味.png'>"
+			},
+			{
+				"text": "星星眼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/星星眼.png'>"
+			},
+			{
+				"text": "晕了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/晕了.png'>"
+			},
+			{
+				"text": "最爱你了",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/最爱你了.png'>"
+			},
+			{
+				"text": "有鬼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/有鬼.png'>"
+			},
+			{
+				"text": "王牌级",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/王牌级.png'>"
+			},
+			{
+				"text": "甜甜甜",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/甜甜甜.png'>"
+			},
+			{
+				"text": "生日快乐",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/生日快乐.png'>"
+			},
+			{
+				"text": "疑惑",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/疑惑.png'>"
+			},
+			{
+				"text": "看看你的",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/看看你的.png'>"
+			},
+			{
+				"text": "磕头",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/磕头.png'>"
+			},
+			{
+				"text": "米线",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/米线.png'>"
+			},
+			{
+				"text": "累",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/累.png'>"
+			},
+			{
+				"text": "结晶",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/结晶.png'>"
+			},
+			{
+				"text": "钓鱼",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/钓鱼.png'>"
+			},
+			{
+				"text": "闪亮登场",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/闪亮登场.png'>"
+			},
+			{
+				"text": "阴险",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/阴险.png'>"
+			},
+			{
+				"text": "难过",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/难过.png'>"
+			},
+			{
+				"text": "震惊",
+				"icon": "<img src='https://jsd.anxy.top/gh/mrmiaomrzh/owo/Taffy/震惊.png'>"
+			}
+		]
+	}
+}
