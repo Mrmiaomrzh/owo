@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 本地上传/生成脚本
+_owo_common.py
+_upload_cfbed.py
+_gen_owo.py
+
+# 系统
+.DS_Store
+Thumbs.db
