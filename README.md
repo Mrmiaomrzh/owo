@@ -59,7 +59,7 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 
 ### GitHub Action（推荐，全自动）
 
-仓库自带自包含的 `.github/workflows/upload.yml`（逻辑内嵌，不依赖本地脚本）。推送 main 时只要改了表情文件，就会自动：增量上传新增/变更的表情到图床（默认 **WebDAV** 存储）→ 重新生成 `owo.json` / `owo-cfbed.json` → 提交回仓库。也可在 Actions 页手动触发。
+仓库自带自包含的 `.github/workflows/upload.yml`（逻辑内嵌，不依赖本地脚本）。推送 main 时只要改了表情文件，就会自动：增量上传新增/变更的表情到图床（默认 **Telegram** 存储）→ 重新生成 `owo.json` / `owo-cfbed.json` → 提交回仓库。也可在 Actions 页手动触发。
 
 > `owo-cfbed-cache.json` 是「文件名 → 图床 URL」的增量缓存，**请随仓库一起提交**；它只含公开的图床 URL，不含任何密钥。
 
@@ -72,11 +72,10 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 
 ### 本地脚本（可选）
 
-三个脚本 `_owo_common.py` / `_upload_cfbed.py` / `_gen_owo.py` **仅本地使用，已加入 `.gitignore`，不会提交**（图床 token 只存在本地脚本里，不入库）。
-
-- `python _upload_cfbed.py`：增量上传本地表情到图床 `stickers/<系列>/`（默认 **WebDAV** 通道），URL 记录在 `owo-cfbed-cache.json`（只上传新增/变更的图片）。运行时逐条显示 `[i/N] Uploading <文件名> ...` 进度。
+- `python _upload_cfbed.py`：增量上传本地表情到图床 `stickers/<系列>/`（默认 **Telegram** 通道），URL 记录在 `owo-cfbed-cache.json`（只上传新增/变更的图片）。运行时逐条显示 `[i/N] Uploading <文件名> ...` 进度。
   - 可选参数：`--dry-run`（预览不实际上传）、`--subset <系列>`、`--force`（忽略缓存全量重传）、`--auth <码>`、`--base <url>`、`--channel <通道>`。
 - `python _gen_owo.py`：从本地文件夹重新生成 `owo.json` 与 `owo-cfbed.json`（UTF-8、CRLF，与 twikoo 兼容）。
+- `python _delete_stickers.py`：上传前先**递归删除图床上整个 `stickers/` 文件夹**（`GET /api/manage/delete/stickers?folder=true`），清除仓库中已移除表情的残留图片；默认同时重置 `owo-cfbed-cache.json`，让下次上传从零开始全量重建。可选参数：`--dry-run`（预览不实际删除）、`--folder <路径>`（删除指定目录）、`--keep-cache`（不重置缓存）、`--auth <码>`、`--base <url>`。
 
 ## 贡献
 

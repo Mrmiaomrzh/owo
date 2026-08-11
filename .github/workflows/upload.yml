@@ -1,4 +1,4 @@
-# 自包含 Action：上传新增/变更表情到 CloudFlare ImgBed（默认 WebDAV），
+# 自包含 Action：上传新增/变更表情到 CloudFlare ImgBed（默认 Telegram），
 # 重新生成 owo.json 与 owo-cfbed.json，并提交回仓库。
 #
 # 不依赖仓库内的本地脚本（那些脚本是 gitignore 的、只留本地）。
@@ -35,7 +35,7 @@ jobs:
         env:
           CFBED_AUTH_CODE: ${{ secrets.CFBED_AUTH_CODE }}
           CFBED_BASE_URL: ${{ secrets.CFBED_BASE_URL }}
-          CFBED_CHANNEL: webdav
+          CFBED_CHANNEL: Telegram
         run: |
           set +e
           python - <<'PY'

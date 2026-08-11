@@ -6,6 +6,7 @@ __pycache__/
 _owo_common.py
 _upload_cfbed.py
 _gen_owo.py
+_delete_stickers.py
 
 # 系统
 .DS_Store
