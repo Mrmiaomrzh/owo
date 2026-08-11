@@ -57,7 +57,7 @@ jobs:
 
           BASE = os.environ.get("CFBED_BASE_URL") or "https://cfbed.lyxzmiao.cc"
           AUTH = os.environ.get("CFBED_AUTH_CODE") or ""
-          CHANNEL = os.environ.get("CFBED_CHANNEL") or "webdav"
+          CHANNEL = os.environ.get("CFBED_CHANNEL") or ""
 
 
           class UploadError(Exception):

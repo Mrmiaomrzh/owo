@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/mrmiaomrzh/owo/main/owo.json
 - **owo-cfbed.json（图床）**：icon 使用 CloudFlare ImgBed 图床（cfbed.lyxzmiao.cc）链接，已上传至 `stickers/` 目录：
 
 ```
-https://raw.githubusercontent.com/mrmiaomrzh/owo/main/owo-cfbed.json
+https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 ```
 
 ## 自动更新
