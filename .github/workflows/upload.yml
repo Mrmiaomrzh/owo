@@ -31,6 +31,49 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Clear remote stickers (delete before upload)
+        env:
+          CFBED_AUTH_CODE: ${{ secrets.CFBED_AUTH_CODE }}
+          CFBED_BASE_URL: ${{ secrets.CFBED_BASE_URL }}
+        run: |
+          # 每次运行前先递归删除图床上整个 stickers/ 目录（含所有子目录/文件），
+          # 再清空本地增量缓存，保证本次上传从零开始全量重建，不残留旧图。
+          python - <<'PY'
+          import json, os, sys
+          from urllib import error as urlerror, parse, request
+
+          BASE = os.environ.get("CFBED_BASE_URL") or "https://cfbed.lyxzmiao.cc"
+          AUTH = os.environ.get("CFBED_AUTH_CODE") or ""
+          query = ["folder=true"]
+          if AUTH:
+              query.insert(0, f"authCode={parse.quote(AUTH)}")
+          url = f"{BASE}/api/manage/delete/stickers?" + "&".join(query)
+          headers = {"User-Agent": "owo-uploader/1.0"}
+          if AUTH:
+              headers["Authorization"] = f"Bearer {AUTH}"
+          try:
+              with request.urlopen(request.Request(url, headers=headers), timeout=60) as resp:
+                  data = json.loads(resp.read().decode("utf-8"))
+          except urlerror.HTTPError as e:
+              if e.code == 404:
+                  print("stickers/ not found on imgbed — nothing to delete")
+              else:
+                  print(f"::error::delete failed: HTTP {e.code} — check authCode / delete permission")
+                  sys.exit(1)
+          else:
+              deleted = (data.get("deleted") or []) if isinstance(data, dict) else []
+              failed = (data.get("failed") or []) if isinstance(data, dict) else []
+              print(f"deleted {len(deleted)} file(s) under stickers/")
+              if failed:
+                  print(f"::warning::delete partial failure: {len(failed)} file(s)")
+                  sys.exit(1)
+          # 远端已清空，缓存里的旧 URL 全部失效，重置后上传步骤会全量重传
+          empty = {"version": 1, "base_url": "", "files": {}}
+          with open("owo-cfbed-cache.json", "w", encoding="utf-8") as f:
+              json.dump(empty, f)
+          print("reset owo-cfbed-cache.json")
+          PY
+
       - name: Upload + regenerate
         env:
           CFBED_AUTH_CODE: ${{ secrets.CFBED_AUTH_CODE }}
