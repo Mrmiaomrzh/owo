@@ -51,22 +51,41 @@ jobs:
           headers = {"User-Agent": "owo-uploader/1.0"}
           if AUTH:
               headers["Authorization"] = f"Bearer {AUTH}"
-          try:
-              with request.urlopen(request.Request(url, headers=headers), timeout=60) as resp:
-                  data = json.loads(resp.read().decode("utf-8"))
-          except urlerror.HTTPError as e:
-              if e.code == 404:
+
+          # 递归删除整个目录可能很慢（几百个文件 + Telegram 逐条处理），
+          # 所以读超时放宽到 10 分钟，并重试 3 次（中途超时服务器可能已删完，
+          # 重试遇 404 会按"无可删除"处理，安全）。
+          def try_delete(attempt):
+              try:
+                  with request.urlopen(request.Request(url, headers=headers), timeout=600) as resp:
+                      return json.loads(resp.read().decode("utf-8")), None
+              except urlerror.HTTPError as e:
+                  if e.code == 404:
+                      return None, "notfound"
+                  return None, f"http-{e.code}"
+              except (urlerror.URLError, TimeoutError, ValueError) as e:
+                  return None, f"{type(e).__name__}: {e}"
+
+          data = None
+          for attempt in range(1, 4):
+              data, err = try_delete(attempt)
+              if err is None:
+                  break
+              if err == "notfound":
                   print("stickers/ not found on imgbed — nothing to delete")
-              else:
-                  print(f"::error::delete failed: HTTP {e.code} — check authCode / delete permission")
-                  sys.exit(1)
+                  data = {"success": True, "deleted": [], "failed": []}
+                  break
+              print(f"attempt {attempt}: delete failed ({err}), retrying ...")
           else:
-              deleted = (data.get("deleted") or []) if isinstance(data, dict) else []
-              failed = (data.get("failed") or []) if isinstance(data, dict) else []
-              print(f"deleted {len(deleted)} file(s) under stickers/")
-              if failed:
-                  print(f"::warning::delete partial failure: {len(failed)} file(s)")
-                  sys.exit(1)
+              print(f"::error::delete failed after 3 attempts: {err} — check authCode / delete permission / network")
+              sys.exit(1)
+
+          deleted = (data.get("deleted") or []) if isinstance(data, dict) else []
+          failed = (data.get("failed") or []) if isinstance(data, dict) else []
+          print(f"deleted {len(deleted)} file(s) under stickers/")
+          if failed:
+              print(f"::warning::delete partial failure: {len(failed)} file(s)")
+              sys.exit(1)
           # 远端已清空，缓存里的旧 URL 全部失效，重置后上传步骤会全量重传
           empty = {"version": 1, "base_url": "", "files": {}}
           with open("owo-cfbed-cache.json", "w", encoding="utf-8") as f:
