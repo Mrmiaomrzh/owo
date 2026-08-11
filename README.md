@@ -57,11 +57,19 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 
 新增表情到对应系列文件夹后，按下面的方式自动上传到图床并重新生成两个 `owo.json`。
 
-### GitHub Action（推荐，全自动）
+### GitHub Action
 
-仓库自带自包含的 `.github/workflows/upload.yml`（逻辑内嵌，不依赖本地脚本）。推送 main 时只要改了表情文件，就会自动：增量上传新增/变更的表情到图床（默认 **Telegram** 存储）→ 重新生成 `owo.json` / `owo-cfbed.json` → 提交回仓库。也可在 Actions 页手动触发。
+仓库自带自包含的 `.github/workflows/upload-daily.yml`（逻辑内嵌，不依赖本地脚本），**北京时间每天 4:00**（UTC 20:00）自动执行一次，也可在 Actions 页手动触发。
 
-> `owo-cfbed-cache.json` 是「文件名 → 图床 URL」的增量缓存，**请随仓库一起提交**；它只含公开的图床 URL，不含任何密钥。
+每次运行：
+
+1. 先删除**上一次上传的那批**表情（图床只保留最新一批，不堆积旧文件）；
+2. 从 9 个表情包文件夹里**随机选 5 个**，每个文件夹**随机选 10 个**（共 50 张）上传到图床（默认 **Telegram** 存储）；
+3. 重新生成 `owo.json` / `owo-cfbed.json` 并提交回仓库。
+
+> `owo-cfbed-cache.json` 是「文件名 → 图床 URL」的增量缓存；`owo-last-upload.json` 记录「上次上传了哪些」（本地文件名 → 图床路径），删除失败的文件会保留在清单里，下次运行自动重试。
+>
+> 每天只上传 50 张，图床文件量始终保持在较低水平，避免耗尽上传资源。
 
 首次配置（一次性）：
 
@@ -69,13 +77,6 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 2. 仓库 `Settings → Secrets and variables → Actions` 添加：
    - `CFBED_AUTH_CODE` = 图床 API token（必需）
    - `CFBED_BASE_URL` = 图床地址（必需）
-
-### 本地脚本（可选）
-
-- `python _upload_cfbed.py`：增量上传本地表情到图床 `stickers/<系列>/`（默认 **Telegram** 通道），URL 记录在 `owo-cfbed-cache.json`（只上传新增/变更的图片）。运行时逐条显示 `[i/N] Uploading <文件名> ...` 进度。
-  - 可选参数：`--dry-run`（预览不实际上传）、`--subset <系列>`、`--force`（忽略缓存全量重传）、`--auth <码>`、`--base <url>`、`--channel <通道>`。
-- `python _gen_owo.py`：从本地文件夹重新生成 `owo.json` 与 `owo-cfbed.json`（UTF-8、CRLF，与 twikoo 兼容）。
-- `python _delete_stickers.py`：上传前先**递归删除图床上整个 `stickers/` 文件夹**（`GET /api/manage/delete/stickers?folder=true`），清除仓库中已移除表情的残留图片；默认同时重置 `owo-cfbed-cache.json`，让下次上传从零开始全量重建。可选参数：`--dry-run`（预览不实际删除）、`--folder <路径>`（删除指定目录）、`--keep-cache`（不重置缓存）、`--auth <码>`、`--base <url>`。
 
 ## 贡献
 

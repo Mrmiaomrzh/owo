@@ -1,4 +1,4 @@
-# 每日随机上传：北京时间每天 3:00（UTC 19:00）执行一次。
+# 每日随机上传：北京时间每天 04:00 执行一次。
 # 每次运行先删除上一次上传的那批表情（图床只保留最新一批），
 # 然后从 9 个表情包文件夹里随机选 5 个，每个文件夹随机选 10 个（共 50 张）上传，
 # 重新生成 owo.json 与 owo-cfbed.json，并提交回仓库。
@@ -17,7 +17,7 @@ name: Daily random stickers upload
 
 on:
   schedule:
-    - cron: '0 19 * * *'   # UTC 19:00 = 北京时间 03:00
+    - cron: '0 20 * * *'   # UTC 20:00 = 北京时间 04:00
   workflow_dispatch:
 
 permissions:
