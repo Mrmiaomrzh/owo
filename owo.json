@@ -3,44 +3,44 @@
 		"type": "image",
 		"container": [
 			{
-				"text": "blobcat0_0",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcat0_0.png'>"
-			},
-			{
-				"text": "blobcatcoffee",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatcoffee.png'>"
+				"text": "blobcatangry",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatangry.png'>"
 			},
 			{
 				"text": "blobcatcry",
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatcry.png'>"
 			},
 			{
+				"text": "blobcatfearful",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatfearful.png'>"
+			},
+			{
 				"text": "blobcatfingerguns",
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatfingerguns.png'>"
 			},
 			{
-				"text": "blobcatflower",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatflower.png'>"
-			},
-			{
-				"text": "blobcatheadphones",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatheadphones.png'>"
-			},
-			{
-				"text": "blobcatheartbroken",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatheartbroken.png'>"
-			},
-			{
-				"text": "blobcathighfive",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcathighfive.png'>"
+				"text": "blobcatheartpride",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatheartpride.png'>"
 			},
 			{
 				"text": "blobcatsaitama",
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatsaitama.png'>"
 			},
 			{
-				"text": "blobcatwave",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatwave.png'>"
+				"text": "blobcatscared",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatscared.png'>"
+			},
+			{
+				"text": "blobcatthink",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatthink.png'>"
+			},
+			{
+				"text": "blobcattriumph",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcattriumph.png'>"
+			},
+			{
+				"text": "blobcatumm",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/blobcat/blobcatumm.png'>"
 			}
 		]
 	},
@@ -48,20 +48,12 @@
 		"type": "image",
 		"container": [
 			{
-				"text": "bilibili-亲亲",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E4%BA%B2%E4%BA%B2.png'>"
+				"text": "bilibili-发怒",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%8F%91%E6%80%92.png'>"
 			},
 			{
-				"text": "bilibili-再见",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%86%8D%E8%A7%81.png'>"
-			},
-			{
-				"text": "bilibili-发财",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%8F%91%E8%B4%A2.png'>"
-			},
-			{
-				"text": "bilibili-吐血",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%90%90%E8%A1%80.png'>"
+				"text": "bilibili-呆",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%91%86.png'>"
 			},
 			{
 				"text": "bilibili-呕吐",
@@ -72,12 +64,16 @@
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%9B%B0.png'>"
 			},
 			{
+				"text": "bilibili-坏笑",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%9D%8F%E7%AC%91.png'>"
+			},
+			{
 				"text": "bilibili-大佬",
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%A4%A7%E4%BD%AC.png'>"
 			},
 			{
-				"text": "bilibili-委屈",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%A7%94%E5%B1%88.png'>"
+				"text": "bilibili-害羞",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E5%AE%B3%E7%BE%9E.png'>"
 			},
 			{
 				"text": "bilibili-微笑",
@@ -86,96 +82,100 @@
 			{
 				"text": "bilibili-思考",
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E6%80%9D%E8%80%83.png'>"
+			},
+			{
+				"text": "bilibili-惊吓",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/bilibili/bilibili-%E6%83%8A%E5%90%93.png'>"
 			}
 		]
 	},
-	"方块脸": {
+	"猫猫虫": {
 		"type": "image",
 		"container": [
 			{
-				"text": "Heybox-cube",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube.png'>"
+				"text": "catbug-亲亲",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E4%BA%B2%E4%BA%B2.webp'>"
 			},
 			{
-				"text": "Heybox-cube_bingbujiandan",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_bingbujiandan.png'>"
+				"text": "catbug-偷偷看",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E5%81%B7%E5%81%B7%E7%9C%8B.webp'>"
 			},
 			{
-				"text": "Heybox-cube_bizui",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_bizui.png'>"
+				"text": "catbug-偷偷给心",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E5%81%B7%E5%81%B7%E7%BB%99%E5%BF%83.webp'>"
 			},
 			{
-				"text": "Heybox-cube_guai",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_guai.png'>"
+				"text": "catbug-吃掉你",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E5%90%83%E6%8E%89%E4%BD%A0.webp'>"
 			},
 			{
-				"text": "Heybox-cube_gugu",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_gugu.png'>"
+				"text": "catbug-咬你",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E5%92%AC%E4%BD%A0.webp'>"
 			},
 			{
-				"text": "Heybox-cube_huaji",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_huaji.png'>"
+				"text": "catbug-开心",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E5%BC%80%E5%BF%83.webp'>"
 			},
 			{
-				"text": "Heybox-cube_jiayou",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_jiayou.png'>"
+				"text": "catbug-思考中",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E6%80%9D%E8%80%83%E4%B8%AD.webp'>"
 			},
 			{
-				"text": "Heybox-cube_weixiao",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_weixiao.png'>"
+				"text": "catbug-无奈",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E6%97%A0%E5%A5%88.webp'>"
 			},
 			{
-				"text": "Heybox-cube_wulianku",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_wulianku.png'>"
+				"text": "catbug-膜拜",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E8%86%9C%E6%8B%9C.webp'>"
 			},
 			{
-				"text": "Heybox-cube_xiaocry",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/heybox/Heybox-cube_xiaocry.png'>"
+				"text": "catbug-问号",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/catbug/catbug-%E9%97%AE%E5%8F%B7.webp'>"
 			}
 		]
 	},
-	"卡拉彼丘": {
+	"明日方舟": {
 		"type": "image",
 		"container": [
 			{
-				"text": "亮瞎了",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E4%BA%AE%E7%9E%8E%E4%BA%86.png'>"
+				"text": "出击",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E5%87%BA%E5%87%BB.png'>"
 			},
 			{
-				"text": "冷漠",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E5%86%B7%E6%BC%A0.png'>"
+				"text": "吃瓜",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E5%90%83%E7%93%9C.png'>"
 			},
 			{
-				"text": "喝水",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E5%96%9D%E6%B0%B4.png'>"
+				"text": "和善",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E5%92%8C%E5%96%84.png'>"
 			},
 			{
-				"text": "喝茶",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E5%96%9D%E8%8C%B6.png'>"
+				"text": "喧嚣的风",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E5%96%A7%E5%9A%A3%E7%9A%84%E9%A3%8E.png'>"
 			},
 			{
-				"text": "我的天呐",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E6%88%91%E7%9A%84%E5%A4%A9%E5%91%90.png'>"
+				"text": "摇滚起来",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E6%91%87%E6%BB%9A%E8%B5%B7%E6%9D%A5.png'>"
 			},
 			{
-				"text": "晒太阳",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E6%99%92%E5%A4%AA%E9%98%B3.png'>"
+				"text": "暗中观察",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E6%9A%97%E4%B8%AD%E8%A7%82%E5%AF%9F.png'>"
 			},
 			{
-				"text": "棒！",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E6%A3%92%EF%BC%81.png'>"
+				"text": "灵魂出窍",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E7%81%B5%E9%AD%82%E5%87%BA%E7%AA%8D.png'>"
 			},
 			{
-				"text": "玛到成功",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E7%8E%9B%E5%88%B0%E6%88%90%E5%8A%9F.png'>"
+				"text": "胜利",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E8%83%9C%E5%88%A9.png'>"
 			},
 			{
-				"text": "马上摸鱼",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E9%A9%AC%E4%B8%8A%E6%91%B8%E9%B1%BC.png'>"
+				"text": "财迷心窍",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E8%B4%A2%E8%BF%B7%E5%BF%83%E7%AA%8D.png'>"
 			},
 			{
-				"text": "马上躺下",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/KaLaBiQiu/%E9%A9%AC%E4%B8%8A%E8%BA%BA%E4%B8%8B.png'>"
+				"text": "飙车",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Arknights/%E9%A3%99%E8%BD%A6.png'>"
 			}
 		]
 	},
@@ -183,8 +183,12 @@
 		"type": "image",
 		"container": [
 			{
-				"text": "喵喵拳",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%96%B5%E5%96%B5%E6%8B%B3.png'>"
+				"text": "NO喵!",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/NO%E5%96%B5%21.png'>"
+			},
+			{
+				"text": "回旋",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%9B%9E%E6%97%8B.png'>"
 			},
 			{
 				"text": "好热",
@@ -195,32 +199,28 @@
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%A5%BD%E7%9A%84%E5%96%B5.png'>"
 			},
 			{
-				"text": "委屈",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%A7%94%E5%B1%88.png'>"
-			},
-			{
-				"text": "对呀对呀",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%AF%B9%E5%91%80%E5%AF%B9%E5%91%80.png'>"
-			},
-			{
 				"text": "尴尬",
 				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%B0%B4%E5%B0%AC.png'>"
 			},
 			{
-				"text": "开派对咯",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E5%BC%80%E6%B4%BE%E5%AF%B9%E5%92%AF.png'>"
+				"text": "摸头",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E6%91%B8%E5%A4%B4.png'>"
 			},
 			{
-				"text": "我帅吗",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E6%88%91%E5%B8%85%E5%90%97.png'>"
+				"text": "星星眼",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E6%98%9F%E6%98%9F%E7%9C%BC.png'>"
 			},
 			{
-				"text": "甜甜甜",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E7%94%9C%E7%94%9C%E7%94%9C.png'>"
+				"text": "晕了",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E6%99%95%E4%BA%86.png'>"
 			},
 			{
-				"text": "难过",
-				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E9%9A%BE%E8%BF%87.png'>"
+				"text": "王牌级",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E7%8E%8B%E7%89%8C%E7%BA%A7.png'>"
+			},
+			{
+				"text": "磕头",
+				"icon": "<img src='https://raw.githubusercontent.com/mrmiaomrzh/owo/main/Taffy/%E7%A3%95%E5%A4%B4.png'>"
 			}
 		]
 	}
