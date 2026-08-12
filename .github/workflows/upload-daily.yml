@@ -1,6 +1,7 @@
 # 每日随机上传：北京时间每天 04:00 执行一次。
 # 每次运行先删除上一次上传的那批表情（图床只保留最新一批），
-# 然后从 9 个表情包文件夹里随机选 5 个，每个文件夹随机选 10 个（共 50 张）上传，
+# 然后从 9 个表情包文件夹里随机选 5 个，每个文件夹随机选 10 个（共 50 张），
+# 整合上传到图床的 bqb/ 文件夹（uploadFolder=bqb），
 # 重新生成 owo.json 与 owo-cfbed.json，并提交回仓库。
 #
 # 「上一次上传了哪些」记录在 owo-last-upload.json（本地 key -> 图床 remote path），
@@ -153,8 +154,8 @@ jobs:
 
           def remote_path_from_url(url):
               """图床 URL -> 删除用 remote path。
-              如 https://cfbed.lyxzmiao.cc/file/stickers/blobcat/ectpwGTQ.png
-              -> stickers/blobcat/ectpwGTQ.png"""
+              如 https://cfbed.lyxzmiao.cc/file/bqb/ectpwGTQ.png
+              -> bqb/ectpwGTQ.png"""
               prefix = f"{BASE}/file/"
               if url.startswith(prefix):
                   return url[len(prefix):]
@@ -317,7 +318,7 @@ jobs:
                       continue
                   print(f"[{i}/{total}] Uploading {folder}/{fn} ...")
                   try:
-                      url = upload_one(AUTH, f"stickers/{folder}", path, fn)
+                      url = upload_one(AUTH, "bqb", path, fn)
                   except UploadError as e:
                       print(f"FAIL {e}")
                       failed.append(relpath(folder, fn))
@@ -362,7 +363,7 @@ jobs:
                       f.write(f"- 需上传：{total}\n")
                       f.write(f"- 成功：{total - len(failed)}\n")
                       f.write(f"- 失败：{len(failed)}\n")
-                      f.write(f"- 图床：{BASE}（channel={CHANNEL}）\n")
+                      f.write(f"- 图床：{BASE}（channel={CHANNEL}，目录 bqb/）\n")
                       if missing:
                           f.write(f"- 无图床 URL 回退 GitHub：{len(missing)}\n")
                       if failed:

@@ -47,7 +47,7 @@
 https://raw.githubusercontent.com/mrmiaomrzh/owo/main/owo.json
 ```
 
-- **owo-cfbed.json（图床）**：icon 使用 CloudFlare ImgBed 图床（cfbed.lyxzmiao.cc）链接，已上传至 `stickers/` 目录：
+- **owo-cfbed.json（图床）**：icon 使用 CloudFlare ImgBed 图床（cfbed.lyxzmiao.cc）链接，已上传至图床的 `bqb/` 目录：
 
 ```
 https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
@@ -64,7 +64,7 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 每次运行：
 
 1. 先删除**上一次上传的那批**表情（图床只保留最新一批，不堆积旧文件）；
-2. 从 9 个表情包文件夹里**随机选 5 个**，每个文件夹**随机选 10 个**（共 50 张）上传到图床（默认 **Telegram** 存储）；
+2. 从 9 个表情包文件夹里**随机选 5 个**，每个文件夹**随机选 10 个**（共 50 张），整合上传到图床的 **bqb/** 文件夹（默认 **Telegram** 存储）；
 3. 重新生成 `owo.json` / `owo-cfbed.json` 并提交回仓库。
 
 > `owo-cfbed-cache.json` 是「文件名 → 图床 URL」的增量缓存；`owo-last-upload.json` 记录「上次上传了哪些」（本地文件名 → 图床路径），删除失败的文件会保留在清单里，下次运行自动重试。
