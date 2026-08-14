@@ -1,22 +1,8 @@
-# 每日随机上传：北京时间每天 04:00 执行一次。
-# 每次运行先删除上一次上传的那批表情（图床只保留最新一批），
-# 然后从 9 个表情包文件夹里随机选 5 个，每个文件夹随机选 10 个（共 50 张），
-# 整合上传到图床的 bqb/ 文件夹（uploadFolder=bqb）。
-# 重新生成的 owo.json 与 owo-cfbed.json 都只保留本批这 50 个表情：
-#   owo.json 用 GitHub 直链，owo-cfbed.json 用图床链接（缺则回退 GitHub）。
-# 历史遗留的 stickers/ 旧目录链接在载入缓存时被丢弃，不会写回 json。
-#
-# 「上一次上传了哪些」记录在 owo-last-upload.json（本地 key -> 图床 remote path），
-# 随仓库提交。删除走 /api/manage/delete/batch 分批（每批 40 个，避开 Worker 子请求上限）；
-# 删不掉的文件保留在清单里，下次运行再试，不中断本次上传。
-#
-# 背景：避免全量重传耗尽 CloudFlare 免费版 KV 写入配额（KV put 1000 次/天）。
-# 每天删 50 + 传 50，KV 写入量远低于配额。也可手动触发（workflow_dispatch）。
-#
-# 首次配置：仓库 Settings -> Secrets and variables -> Actions 添加
-#   CFBED_AUTH_CODE  = 图床 API token（必需）
-#   CFBED_BASE_URL   = 图床地址（可选，默认 https://cfbed.lyxzmiao.cc）
-name: Daily random stickers upload
+# 每日精选表情包：北京时间每天 04:00 执行一次。
+# 工作流只读取 stickers-upload-links.md 中已有的图床链接，不上传、不删除任何文件。
+# 每次从 9 个系列中随机选 5 个，每个系列随机选 10 条，生成 50 条精选 JSON。
+# 所有链接始终保留在 stickers-upload-links.md 中。
+name: Daily featured stickers manifest
 
 on:
   schedule:
@@ -27,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  upload-random:
+  generate-featured:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,375 +22,147 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Upload random stickers + regenerate
+      - name: Generate featured manifests and report results
         env:
-          CFBED_AUTH_CODE: ${{ secrets.CFBED_AUTH_CODE }}
-          CFBED_BASE_URL: ${{ secrets.CFBED_BASE_URL }}
-          CFBED_CHANNEL: Telegram
-          RANDOM_FOLDERS: '5'      # 随机抽几个文件夹
-          RANDOM_PER_FOLDER: '10'  # 每个文件夹随机抽几张
+          RANDOM_FOLDERS: '5'
+          RANDOM_PER_FOLDER: '10'
         run: |
-          set +e
           python - <<'PY'
-          import json, os, random, sys, time, uuid
-          from urllib import error as urlerror, parse, request
+          import json
+          import os
+          import random
+          import re
+          import sys
+          from pathlib import Path
 
+          LINKS_FILE = Path("stickers-upload-links.md")
+          MANIFESTS = (Path("owo.json"), Path("owo-cfbed.json"))
           FOLDER_ORDER = [
               ("blobcat", "可爱猫"), ("bilibili", "小电视"), ("catbug", "猫猫虫"),
               ("heybox", "方块脸"), ("Arknights", "明日方舟"), ("GuduYaoGun", "孤独摇滚"),
               ("KaLaBiQiu", "卡拉彼丘"), ("QianLianWanHua", "千恋万花"), ("Taffy", "塔菲"),
           ]
-          IMAGE_EXTS = (".png", ".webp")
-          GH_RAW_BASE = "https://raw.githubusercontent.com/mrmiaomrzh/owo/main"
-          CACHE_FILE = "owo-cfbed-cache.json"
-          CFBED_MANIFEST = "owo-cfbed.json"
-          GITHUB_MANIFEST = "owo.json"
-          LAST_FILE = "owo-last-upload.json"
-          CACHE_VERSION = 1
-          LAST_VERSION = 1
-          MAX_FILE_BYTES = 20 * 1024 * 1024
-          DELETE_BATCH = 40
-
-          BASE = os.environ.get("CFBED_BASE_URL") or "https://cfbed.lyxzmiao.cc"
-          AUTH = os.environ.get("CFBED_AUTH_CODE") or ""
-          CHANNEL = os.environ.get("CFBED_CHANNEL") or "Telegram"
+          FOLDER_NAMES = {folder for folder, _category in FOLDER_ORDER}
+          LINK_RE = re.compile(r"^- \[([^\]]+)\]\((https?://[^)]+)\)\s*$")
+          HEADING_RE = re.compile(r"^##\s+(.+?)\s*$")
           NUM_FOLDERS = int(os.environ.get("RANDOM_FOLDERS") or "5")
           PER_FOLDER = int(os.environ.get("RANDOM_PER_FOLDER") or "10")
 
 
-          class UploadError(Exception):
-              pass
-
-
-          def relpath(folder, filename):
-              return f"{folder}/{filename}"
-
-
-          def stem(filename):
-              return os.path.splitext(filename)[0]
-
-
-          def mime_of(filename):
-              return {"png": "image/png", "webp": "image/webp", "jpg": "image/jpeg",
-                      "jpeg": "image/jpeg", "gif": "image/gif"}.get(
-                  filename.rsplit(".", 1)[-1].lower(), "application/octet-stream")
-
-
-          def scan_folders():
-              result = []
-              for folder, cat in FOLDER_ORDER:
-                  try:
-                      names = os.listdir(folder)
-                  except FileNotFoundError:
-                      continue
-                  files = sorted(fn for fn in names if fn.lower().endswith(IMAGE_EXTS))
-                  if files:
-                      result.append((folder, cat, files))
-              return result
-
-
-          def load_cache():
-              empty = {"version": CACHE_VERSION, "base_url": "", "files": {}}
-              try:
-                  with open(CACHE_FILE, "rb") as f:
-                      raw = f.read()
-                  if not raw:
-                      return empty
-                  data = json.loads(raw.decode("utf-8"))
-              except (OSError, ValueError):
-                  return empty
-              if not isinstance(data, dict) or data.get("version") != CACHE_VERSION:
-                  return empty
-              files = {}
-              for key, entry in (data.get("files") or {}).items():
-                  if isinstance(entry, dict) and isinstance(entry.get("url"), str) \
-                          and entry["url"].startswith(("http://", "https://")) \
-                          and "/file/stickers/" not in entry["url"]:
-                      # 丢弃历史遗留的 stickers/ 旧目录链接，只认当前 bqb/ 目录，
-                      # 让这些文件下次被抽中时重新上传到 bqb/（json 里回退 GitHub）。
-                      files[key.replace("\\", "/")] = entry
-              return {"version": CACHE_VERSION, "base_url": data.get("base_url", ""), "files": files}
-
-
-          def load_last():
-              empty = {"version": LAST_VERSION, "files": {}}
-              try:
-                  with open(LAST_FILE, "rb") as f:
-                      raw = f.read()
-                  if not raw:
-                      return empty
-                  data = json.loads(raw.decode("utf-8"))
-              except (OSError, ValueError):
-                  return empty
-              if not isinstance(data, dict) or data.get("version") != LAST_VERSION:
-                  return empty
-              files = {}
-              for key, rp in (data.get("files") or {}).items():
-                  if isinstance(rp, str) and rp:
-                      files[key.replace("\\", "/")] = rp
-              return {"version": LAST_VERSION, "files": files}
-
-
           def write_json(path, data):
-              text = json.dumps(data, ensure_ascii=False, indent="\t").replace("\n", "\r\n")
-              if not text.endswith("\r\n"):
-                  text += "\r\n"
-              with open(path, "wb") as f:
-                  f.write(text.encode("utf-8"))
+              text = json.dumps(data, ensure_ascii=False, indent="\t")
+              path.write_text(text + "\n", encoding="utf-8", newline="")
 
 
-          def save_cache(cache):
-              write_json(CACHE_FILE, cache)
+          def load_links():
+              if not LINKS_FILE.is_file():
+                  raise RuntimeError(f"Missing source file: {LINKS_FILE}")
 
-
-          def remote_path_from_url(url):
-              """图床 URL -> 删除用 remote path。
-              如 https://cfbed.lyxzmiao.cc/file/bqb/ectpwGTQ.png
-              -> bqb/ectpwGTQ.png"""
-              prefix = f"{BASE}/file/"
-              if url.startswith(prefix):
-                  return url[len(prefix):]
-              idx = url.find("/file/")
-              return url[idx + len("/file/"):] if idx != -1 else ""
-
-
-          def delete_batch(remote_paths):
-              """分批删除图床文件，返回 (deleted_paths, failed_paths)。
-              容错：单批网络错误只算该批失败，不中断整个流程。"""
-              deleted, failed = [], []
-              for i in range(0, len(remote_paths), DELETE_BATCH):
-                  batch = remote_paths[i:i + DELETE_BATCH]
-                  query = [f"authCode={parse.quote(AUTH)}"]
-                  url = f"{BASE}/api/manage/delete/batch?" + "&".join(query)
-                  headers = {"Authorization": f"Bearer {AUTH}", "User-Agent": "owo-uploader/1.0",
-                             "Content-Type": "application/json"}
-                  body = json.dumps({"fileIds": batch}).encode("utf-8")
-                  try:
-                      with request.urlopen(request.Request(url, headers=headers, data=body, method="POST"),
-                                           timeout=180) as resp:
-                          data = json.loads(resp.read().decode("utf-8"))
-                      deleted.extend(data.get("deleted") or [])
-                      for item in (data.get("failed") or []):
-                          failed.append(item.get("fileId") if isinstance(item, dict) else item)
-                  except Exception as e:
-                      print(f"  delete batch {i // DELETE_BATCH + 1} error: {e}")
-                      failed.extend(batch)
-                  time.sleep(1)
-              return [d for d in deleted if d], [f for f in failed if f]
-
-
-          def build_body(file_path, filename, mime, upload_folder, channel):
-              boundary = "----owo" + uuid.uuid4().hex
-              fields = [("uploadFolder", upload_folder), ("returnFormat", "full"),
-                        ("uploadNameType", "short"), ("uploadChannel", channel)]
-              parts = []
-              for k, v in fields:
-                  parts.append(
-                      f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode("utf-8"))
-              with open(file_path, "rb") as f:
-                  file_bytes = f.read()
-              parts.append(
-                  f'--{boundary}\r\nContent-Disposition: form-data; name="file"; filename="{filename}"\r\n'
-                  f"Content-Type: {mime}\r\n\r\n".encode("utf-8"))
-              return b"".join(parts) + file_bytes + f"\r\n--{boundary}--\r\n".encode("utf-8"), boundary
-
-
-          def extract_url(resp_data):
-              if isinstance(resp_data, dict):
-                  resp_data = resp_data.get("data") or resp_data.get("result") or []
-              item = resp_data[0] if isinstance(resp_data, list) and resp_data else {}
-              if item.get("publicUrl"):
-                  return item["publicUrl"]
-              src = item.get("src", "")
-              if isinstance(src, str) and src.startswith("http"):
-                  return src
-              return BASE + src if isinstance(src, str) and src else ""
-
-
-          def upload_one(auth_code, upload_folder, file_path, filename, retries=3):
-              query = [f"uploadFolder={parse.quote(upload_folder)}", "returnFormat=full",
-                       "uploadNameType=short", f"uploadChannel={parse.quote(CHANNEL)}"]
-              if auth_code:
-                  query.insert(0, f"authCode={parse.quote(auth_code)}")
-              url = f"{BASE}/upload?" + "&".join(query)
-              body, boundary = build_body(file_path, filename, mime_of(filename), upload_folder, CHANNEL)
-              headers = {"Content-Type": f"multipart/form-data; boundary={boundary}",
-                         "User-Agent": "owo-uploader/1.0"}
-              if auth_code:
-                  headers["Authorization"] = f"Bearer {auth_code}"
-              for attempt in range(1, retries + 1):
-                  try:
-                      with request.urlopen(request.Request(url, data=body, headers=headers), timeout=30) as resp:
-                          data = json.loads(resp.read().decode("utf-8"))
-                      url_str = extract_url(data)
-                      if url_str:
-                          return url_str
-                      raise UploadError("response had no usable URL")
-                  except urlerror.HTTPError as e:
-                      if e.code in (401, 403):
-                          raise UploadError(f"{filename}: HTTP {e.code}") from e
-                      if attempt == retries:
-                          raise UploadError(f"{filename}: HTTP {e.code}") from e
-                      time.sleep(min(2 ** attempt, 8))
-                  except (urlerror.URLError, TimeoutError, ValueError, UploadError) as e:
-                      if attempt == retries:
-                          raise UploadError(f"{filename}: {e}") from e
-                      time.sleep(min(2 ** attempt, 8))
-              raise UploadError(f"{filename}: unreachable")
-
-
-          def github_url(folder, filename):
-              seg = [parse.quote(s, safe="") for s in (folder, filename)]
-              return f"{GH_RAW_BASE}/{'/'.join(seg)}"
-
-
-          def build_batch(batch_keys, url_for):
-              """只把本批（当前上传到图床 bqb/ 的这批，约 50 张）写进 json。
-              batch_keys: 形如 'folder/filename' 的本地 key 列表。"""
-              out = {}
-              for folder, cat in FOLDER_ORDER:
-                  prefix = folder + "/"
-                  fns = [key[len(prefix):] for key in batch_keys if key.startswith(prefix)]
-                  if not fns:
+              groups = {folder: [] for folder in FOLDER_NAMES}
+              current_folder = None
+              for raw_line in LINKS_FILE.read_text(encoding="utf-8").splitlines():
+                  heading = HEADING_RE.match(raw_line.strip())
+                  if heading:
+                      current_folder = heading.group(1).strip()
+                      if current_folder not in FOLDER_NAMES:
+                          current_folder = None
                       continue
-                  out[cat] = {"type": "image", "container": [
-                      {"text": stem(fn), "icon": f"<img src='{url_for(folder, fn)}'>"} for fn in fns]}
-              return out
+
+                  match = LINK_RE.match(raw_line.strip())
+                  if match and current_folder:
+                      filename, url = match.groups()
+                      groups[current_folder].append({"filename": filename, "url": url})
+
+              return groups
 
 
-          def main():
-              scan = scan_folders()
-              cache = load_cache()
-              files_map = cache.setdefault("files", {})
-              current_keys = {relpath(folder, fn) for folder, _c, files in scan for fn in files}
-              for stale in [k for k in files_map if k not in current_keys]:
-                  del files_map[stale]
-
-              # ---- 第一步：删除上一次上传的那批（图床只保留最新一批）----
-              last = load_last()
-              last_files = last["files"]  # 本地 key -> remote path
-              del_ok, del_fail = [], []
-              if last_files:
-                  print(f"delete previous batch: {len(last_files)} file(s)")
-                  del_ok, del_fail = delete_batch(list(last_files.values()))
-                  del_set = set(del_ok)
-                  for key, rp in list(last_files.items()):
-                      if rp in del_set:
-                          files_map.pop(key, None)  # 缓存 URL 已失效，移除避免 owo-cfbed.json 引用
-                          del last_files[key]
-                          print(f"  deleted {key} -> {rp}")
-                      else:
-                          print(f"  keep for next run (delete failed): {key} -> {rp}")
-                  print(f"  deleted {len(del_ok)}, still pending {len(last_files)}")
-
-              # ---- 第二步：随机选 NUM_FOLDERS 个有文件的文件夹，各抽 PER_FOLDER 张 ----
-              available = [s for s in scan if s[2]]
-              chosen = random.sample(available, min(NUM_FOLDERS, len(available)))
-              picked_total = 0
-              todo = []
-              for folder, _cat, files in chosen:
-                  picked = random.sample(files, min(PER_FOLDER, len(files)))
-                  picked_total += len(picked)
-                  for fn in picked:
-                      key = relpath(folder, fn)
-                      path = os.path.join(folder, fn)
-                      st = os.stat(path)
-                      if key not in files_map:
-                          todo.append((folder, fn, "missing"))
-                      elif files_map[key].get("mtime_ns") != st.st_mtime_ns \
-                              or files_map[key].get("size") != st.st_size:
-                          todo.append((folder, fn, "changed"))
-
-              print(f"random pick: {len(chosen)} folders / {picked_total} files -> need upload {len(todo)}")
-              for folder, _cat, files in chosen:
-                  print(f"  {folder}: {min(PER_FOLDER, len(files))} files")
-
-              # ---- 第三步：上传 ----
-              failed = []
-              total = len(todo)
-              for i, (folder, fn, _r) in enumerate(todo, 1):
-                  path = os.path.join(folder, fn)
-                  if os.path.getsize(path) > MAX_FILE_BYTES:
-                      print(f"[{i}/{total}] SKIP {folder}/{fn}: >20MB")
+          def build_manifest(selected):
+              manifest = {}
+              for folder, category in FOLDER_ORDER:
+                  entries = [entry for selected_folder, entry in selected
+                             if selected_folder == folder]
+                  if not entries:
                       continue
-                  print(f"[{i}/{total}] Uploading {folder}/{fn} ...")
-                  try:
-                      url = upload_one(AUTH, "bqb", path, fn)
-                  except UploadError as e:
-                      print(f"FAIL {e}")
-                      failed.append(relpath(folder, fn))
-                      continue
-                  st = os.stat(path)
-                  files_map[relpath(folder, fn)] = {"url": url, "mtime_ns": st.st_mtime_ns,
-                                                    "size": st.st_size}
-                  cache["base_url"] = BASE
-                  save_cache(cache)
-                  rp = remote_path_from_url(url)
-                  if rp:
-                      last_files[relpath(folder, fn)] = rp
-                  print(f"OK   {folder}/{fn} -> {url}")
+                  manifest[category] = {
+                      "type": "image",
+                      "container": [
+                          {
+                              "text": Path(entry["filename"]).stem,
+                              "icon": f"<img src='{entry['url']}'>",
+                          }
+                          for entry in entries
+                      ],
+                  }
+              return manifest
 
-              write_json(LAST_FILE, last)  # 更新"上次上传"清单，供下次删除
 
-              # 两个 json 都只保留本批（当前上传到图床 bqb/ 的这批，约 50 张）：
-              # owo.json 用 GitHub 直链，owo-cfbed.json 用图床链接（缺则回退 GitHub）。
-              batch_keys = sorted(last_files.keys())
-              write_json(GITHUB_MANIFEST, build_batch(batch_keys, github_url))
+          try:
+              groups = load_links()
+              available = [folder for folder, _category in FOLDER_ORDER if groups[folder]]
+              if len(available) < NUM_FOLDERS:
+                  raise RuntimeError(
+                      f"Need at least {NUM_FOLDERS} non-empty folders, found {len(available)}"
+                  )
 
-              missing = []
+              chosen = random.sample(available, NUM_FOLDERS)
+              selected = []
+              for folder in chosen:
+                  entries = groups[folder]
+                  if len(entries) < PER_FOLDER:
+                      raise RuntimeError(
+                          f"Folder {folder} has {len(entries)} links; "
+                          f"need at least {PER_FOLDER}"
+                      )
+                  selected.extend((folder, entry) for entry in random.sample(entries, PER_FOLDER))
 
-              def cfbed_or_fallback(folder, fn):
-                  entry = files_map.get(f"{folder}/{fn}")
-                  if entry and entry.get("url"):
-                      return entry["url"]
-                  missing.append(f"{folder}/{fn}")
-                  return github_url(folder, fn)
+              random.shuffle(selected)
+              manifest = build_manifest(selected)
+              for output in MANIFESTS:
+                  write_json(output, manifest)
 
-              write_json(CFBED_MANIFEST, build_batch(batch_keys, cfbed_or_fallback))
+              counts = {folder: sum(1 for selected_folder, _entry in selected
+                                    if selected_folder == folder) for folder in chosen}
+              print(f"source: {LINKS_FILE} ({sum(map(len, groups.values()))} links)")
+              print(f"featured: {len(selected)} links from {len(chosen)} folders")
+              for folder in chosen:
+                  print(f"  {folder}: {counts[folder]}")
 
-              print(f"\nUploaded {total - len(failed)}, failed {len(failed)} -> {CACHE_FILE}")
-              print(f"manifests list {len(batch_keys)} sticker(s) (current bqb batch)")
-              if missing:
-                  print(f"WARNING: {len(missing)} file(s) without cfbed URL fell back to GitHub")
+              print("featured links:")
+              for folder, entry in selected:
+                  print(f"  {folder}/{entry['filename']} -> {entry['url']}")
 
-              # 写入 GitHub Actions Step Summary（运行页 Summary 标签可见）
               summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
               if summary_path:
-                  with open(summary_path, "a", encoding="utf-8") as f:
-                      f.write("## 每日随机上传\n\n")
-                      f.write(f"- 删除上一批：成功 {len(del_ok)}，待重试 {len(last_files)}\n")
-                      f.write(f"- 随机选择：{len(chosen)} 个文件夹 / {picked_total} 个文件\n")
-                      f.write(f"- 需上传：{total}\n")
-                      f.write(f"- 成功：{total - len(failed)}\n")
-                      f.write(f"- 失败：{len(failed)}\n")
-                      f.write(f"- 图床：{BASE}（channel={CHANNEL}，目录 bqb/）\n")
-                      f.write(f"- 两个 json 保留本批：{len(batch_keys)} 个表情\n")
-                      if missing:
-                          f.write(f"- 无图床 URL 回退 GitHub：{len(missing)}\n")
-                      if failed:
-                          f.write("\n### 失败文件\n")
-                          for key in failed:
-                              f.write(f"- `{key}`\n")
-              sys.exit(1 if failed else 0)
-
-
-          if __name__ == "__main__":
-              main()
+                  with open(summary_path, "a", encoding="utf-8") as summary:
+                      summary.write("## 每日精选表情包\n\n")
+                      summary.write(f"- 来源：`{LINKS_FILE}`\n")
+                      summary.write(f"- 全部链接：{sum(map(len, groups.values()))}\n")
+                      summary.write(f"- 本次精选：{len(selected)}\n")
+                      summary.write(f"- 随机系列：{len(chosen)}\n")
+                      summary.write("- 上传操作：无\n")
+                      summary.write("- 删除操作：无\n")
+                      summary.write("\n## 本次精选链接\n\n")
+                      for folder, _category in FOLDER_ORDER:
+                          entries = [entry for selected_folder, entry in selected
+                                     if selected_folder == folder]
+                          if not entries:
+                              continue
+                          summary.write(f"### {folder}\n\n")
+                          for entry in entries:
+                              summary.write(f"- [{entry['filename']}]({entry['url']})\n")
+                          summary.write("\n")
+          except (OSError, ValueError, RuntimeError) as error:
+              print(f"ERROR: {error}", file=sys.stderr)
+              sys.exit(1)
           PY
-          echo "upload_exit=$?" >> "$GITHUB_ENV"
-          set -e
 
-      - name: Commit and push
+      - name: Commit and push featured manifests
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add owo.json owo-cfbed.json owo-cfbed-cache.json owo-last-upload.json
-          git diff --cached --quiet && echo "no changes to commit" || git commit -m "chore: daily random upload [skip ci]"
+          git add owo.json owo-cfbed.json
+          git diff --cached --quiet && echo "no changes to commit" || git commit -m "chore: refresh featured stickers [skip ci]"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push
-
-      - name: Fail if some uploads failed
-        if: env.upload_exit != '0'
-        run: echo "::error::Some sticker uploads failed - check the 'Upload random stickers + regenerate' step log." && exit 1
