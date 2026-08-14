@@ -39,15 +39,15 @@
 2. **复制表情链接**：复制您喜欢的表情的链接地址，并在需要的地方粘贴使用。
 3. **引导他人使用**：将本仓库链接分享给朋友，让更多人分享表情的乐趣。
 
-您也可以在 twikoo 中直接调用 owo.json 进行使用，本仓库提供两个版本。两个文件都**只保留每天自动上传到图床的当批 50 个表情**（随每日任务更新）：
+您也可以在 twikoo 中直接调用 owo.json 进行使用，本仓库提供两个版本。两个文件每天从 `stickers-upload-links.md` 的完整链接库中随机精选 50 个表情，完整链接仍全部保留在该 Markdown 文件中：
 
-- **owo.json（GitHub）**：icon 使用 raw.githubusercontent.com 直链：
+- **owo.json**：使用 Markdown 中记录的图床链接：
 
 ```
 https://raw.githubusercontent.com/mrmiaomrzh/owo/main/owo.json
 ```
 
-- **owo-cfbed.json（图床）**：icon 使用 CloudFlare ImgBed 图床（cfbed.lyxzmiao.cc）链接，已上传至图床的 `bqb/` 目录：
+- **owo-cfbed.json**：同样使用 Markdown 中记录的图床链接：
 
 ```
 https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
@@ -55,7 +55,7 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 
 ## 自动更新
 
-新增表情到对应系列文件夹后，按下面的方式自动上传到图床并重新生成两个 `owo.json`。
+新增或上传表情后，先更新 `stickers-upload-links.md`，再由下面的任务重新生成两个 `owo.json`。
 
 ### GitHub Action
 
@@ -63,20 +63,11 @@ https://fastly.jsdelivr.net/gh/mrmiaomrzh/owo/owo-cfbed.json
 
 每次运行：
 
-1. 先删除**上一次上传的那批**表情（图床只保留最新一批，不堆积旧文件）；
-2. 从 9 个表情包文件夹里**随机选 5 个**，每个文件夹**随机选 10 个**（共 50 张），整合上传到图床的 **bqb/** 文件夹（默认 **Telegram** 存储）；
-3. 重新生成 `owo.json` / `owo-cfbed.json`（**只保留本批这 50 个**）并提交回仓库。
+1. 读取 `stickers-upload-links.md` 中按系列分组的全部图床链接；
+2. 随机选择 5 个系列，每个系列随机选择 10 条链接，共 50 条；
+3. 使用这 50 条已有链接重新生成 `owo.json` / `owo-cfbed.json` 并提交回仓库。
 
-> `owo-cfbed-cache.json` 是「文件名 → 图床 URL」的增量缓存；`owo-last-upload.json` 记录「上次上传了哪些」（本地文件名 → 图床路径），删除失败的文件会保留在清单里，下次运行自动重试。
->
-> 每天只上传 50 张，图床文件量始终保持在较低水平，避免耗尽上传资源。
-
-首次配置（一次性）：
-
-1. 图床后台获取 API token。
-2. 仓库 `Settings → Secrets and variables → Actions` 添加：
-   - `CFBED_AUTH_CODE` = 图床 API token（必需）
-   - `CFBED_BASE_URL` = 图床地址（必需）
+该任务不调用上传 API，也不删除图床文件。`stickers-upload-links.md` 是完整链接库，新增链接后提交该文件即可参与后续精选。
 
 ## 贡献
 
