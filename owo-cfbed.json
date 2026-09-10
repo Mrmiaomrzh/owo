@@ -1,91 +1,46 @@
 {
-	"可爱猫": {
+	"方块脸": {
 		"type": "image",
 		"container": [
 			{
-				"text": "blobcatcomfy",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/1joniwVe.png'>"
+				"text": "Heybox-cube_weiqu",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/9zHC0NGD.png'>"
 			},
 			{
-				"text": "blobcatneutral",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/0vL6CxWG.png'>"
+				"text": "Heybox-cube_guai",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/aDpG0I5q.png'>"
 			},
 			{
-				"text": "blobcatblush",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/zDqVWgBG.png'>"
+				"text": "Heybox-cube_jingya",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/3gshhvSZ.png'>"
 			},
 			{
-				"text": "blobcathighfive",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/I5D6ofZt.png'>"
+				"text": "Heybox-cube_gandong",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/QQQ9GYsN.png'>"
 			},
 			{
-				"text": "blobcatscared",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/PJlpu6o4.png'>"
+				"text": "Heybox-cube_huaji",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/57QXkxEN.png'>"
 			},
 			{
-				"text": "blobcatmelt",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/trL2tceD.png'>"
+				"text": "Heybox-cube_tu",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/9pA5LpmC.png'>"
 			},
 			{
-				"text": "blobcatnotlikethis",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/Ui13FVmr.png'>"
+				"text": "Heybox-cube_tanshou",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/xFuabBx6.png'>"
 			},
 			{
-				"text": "blobcatyandere",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/TJbN8TZx.png'>"
+				"text": "Heybox-cube_xia",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/uUWgq8Qe.png'>"
 			},
 			{
-				"text": "blobcatpolice",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/oFXFeKnr.png'>"
+				"text": "Heybox-cube_heirenwenhao",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/cGapTnz8.png'>"
 			},
 			{
-				"text": "blobcatpeek2",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/blobcat/UR1x5KDi.png'>"
-			}
-		]
-	},
-	"小电视": {
-		"type": "image",
-		"container": [
-			{
-				"text": "bilibili-呕吐",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/fMPgcddS.png'>"
-			},
-			{
-				"text": "bilibili-冷漠",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/vrpuGsrw.png'>"
-			},
-			{
-				"text": "bilibili-思考",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/dGGuxiNq.png'>"
-			},
-			{
-				"text": "bilibili-发怒",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/dSYslKQg.png'>"
-			},
-			{
-				"text": "bilibili-再见",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/62GTcIBf.png'>"
-			},
-			{
-				"text": "bilibili-doge",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/QLgIydZB.png'>"
-			},
-			{
-				"text": "bilibili-偷笑",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/lUgeTBq3.png'>"
-			},
-			{
-				"text": "bilibili-发财",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/3WkosMon.png'>"
-			},
-			{
-				"text": "bilibili-微笑",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/mf0Q7o0a.png'>"
-			},
-			{
-				"text": "bilibili-坏笑",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/bilibili/xr0thYks.png'>"
+				"text": "Heybox-cube_shengqi",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/heybox/qP9WY7CL.png'>"
 			}
 		]
 	},
@@ -93,89 +48,44 @@
 		"type": "image",
 		"container": [
 			{
-				"text": "失礼",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/9CsDfvNn.png'>"
-			},
-			{
-				"text": "看戏",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/MkkL97uy.png'>"
-			},
-			{
-				"text": "盯",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/hHKk5kVN.png'>"
-			},
-			{
-				"text": "得意",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/xyfZFqxH.png'>"
-			},
-			{
-				"text": "出击",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/6xiCQrUN.png'>"
-			},
-			{
-				"text": "发呆",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/l3rrWJkM.png'>"
-			},
-			{
-				"text": "暗中观察",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/vm6zDQy1.png'>"
-			},
-			{
-				"text": "叹气",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/ZvIT0j6q.png'>"
+				"text": "嘿嘿",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/hvgIYZw7.png'>"
 			},
 			{
 				"text": "好耶",
 				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/Bb4sGBem.png'>"
 			},
 			{
-				"text": "劝你想想",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/u9C4j6ez.png'>"
-			}
-		]
-	},
-	"孤独摇滚": {
-		"type": "image",
-		"container": [
-			{
-				"text": "偷看",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/Q9xzSqLL.png'>"
+				"text": "就是你了",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/7vbKzvx5.png'>"
 			},
 			{
-				"text": "害羞",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/M0EhIrDH.png'>"
+				"text": "叹气",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/ZvIT0j6q.png'>"
 			},
 			{
-				"text": "加油",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/FMeWBODC.png'>"
+				"text": "尴尬",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/e1l03FCO.png'>"
 			},
 			{
-				"text": "举起手来",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/4FHh1oKb.png'>"
+				"text": "喧嚣的风",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/h5BP0nel.png'>"
 			},
 			{
-				"text": "憋笑",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/B9nMVbbA.png'>"
+				"text": "暗中观察",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/vm6zDQy1.png'>"
 			},
 			{
-				"text": "微笑",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/AfQRpVCX.png'>"
+				"text": "ok",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/Y57MsfeO.png'>"
 			},
 			{
-				"text": "哇",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/4tC6Bwlp.png'>"
+				"text": "得意",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/xyfZFqxH.png'>"
 			},
 			{
-				"text": "社恐",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/dYtWc1Xi.png'>"
-			},
-			{
-				"text": "打",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/iHDQBRRs.png'>"
-			},
-			{
-				"text": "吃草",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/GuduYaoGun/rUuSG4JA.png'>"
+				"text": "财迷心窍",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Arknights/uypw6g8y.png'>"
 			}
 		]
 	},
@@ -183,44 +93,134 @@
 		"type": "image",
 		"container": [
 			{
-				"text": "加油",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/85PP5yIo.png'>"
+				"text": "这样啊",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/6DlBcWPw.png'>"
 			},
 			{
-				"text": "酸了",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/NxhcGvks.png'>"
+				"text": "奇怪",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/46FseS9V.png'>"
+			},
+			{
+				"text": "冷漠",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/ON2AewAQ.png'>"
+			},
+			{
+				"text": "晕",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/RhBdzqI2.png'>"
 			},
 			{
 				"text": "shut up",
 				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/edc6FoSu.png'>"
 			},
 			{
-				"text": "要闹了",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/yv4afHzO.png'>"
+				"text": "马上起飞",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/LO0nDcZ5.png'>"
 			},
 			{
-				"text": "喝茶",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/OVbj0Y6u.png'>"
+				"text": "吧唧吧唧",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/ibZYP0xX.png'>"
 			},
 			{
-				"text": "吵死了",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/40P1jtdU.png'>"
+				"text": "如我所料",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/DzVDFOFS.png'>"
 			},
 			{
-				"text": "害怕",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/8yoPg9sZ.png'>"
+				"text": "悠闲",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/iuwgj0gf.png'>"
 			},
 			{
-				"text": "弱小无助",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/vC6y9EPD.png'>"
+				"text": "星门",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/QzWzQiIQ.png'>"
+			}
+		]
+	},
+	"千恋万花": {
+		"type": "image",
+		"container": [
+			{
+				"text": "交给我吧",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/mqEoGSmC.png'>"
 			},
 			{
-				"text": "慢走不送",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/2wF3I3tE.png'>"
+				"text": "呃呃",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/UnZTj1i0.png'>"
 			},
 			{
-				"text": "噗",
-				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/KaLaBiQiu/4aivC0N0.png'>"
+				"text": "zzz",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/lOrmtJeb.png'>"
+			},
+			{
+				"text": "蕾娜Ciallo",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/cx3xO02B.png'>"
+			},
+			{
+				"text": "芳乃Ciallo",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/SE2vbW3g.png'>"
+			},
+			{
+				"text": "害羞",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/ZUkREyWM.png'>"
+			},
+			{
+				"text": "丛雨Ciallo",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/NkBb7h79.png'>"
+			},
+			{
+				"text": "呆",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/MJ0Yl9bU.png'>"
+			},
+			{
+				"text": "哭哭",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/bZ039xUn.png'>"
+			},
+			{
+				"text": "茉子Ciallo",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/QianLianWanHua/zJNgp5ab.png'>"
+			}
+		]
+	},
+	"塔菲": {
+		"type": "image",
+		"container": [
+			{
+				"text": "王牌级",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/l6wE3EXP.png'>"
+			},
+			{
+				"text": "收收味",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/IcFJD03t.png'>"
+			},
+			{
+				"text": "生日快乐",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/o43swSWG.png'>"
+			},
+			{
+				"text": "双手抱胸",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/bs11dVMm.png'>"
+			},
+			{
+				"text": "结晶",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/5sJic7r1.png'>"
+			},
+			{
+				"text": "拥抱",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/BjzEbzDN.png'>"
+			},
+			{
+				"text": "难过",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/ELkY99VT.png'>"
+			},
+			{
+				"text": "好热",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/9ynOyu4Q.png'>"
+			},
+			{
+				"text": "累",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/MsTWhPYN.png'>"
+			},
+			{
+				"text": "塔不灭",
+				"icon": "<img src='https://cfbed.lyxzmiao.cc/file/sticker/Taffy/yZECjoov.png'>"
 			}
 		]
 	}
